@@ -1,0 +1,443 @@
+nero@j2xpnero:~$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+nero@j2xpnero:~$ cd /media/datadrive/Githubprojects
+bash: cd: /media/datadrive/Githubprojects: No such file or directory
+nero@j2xpnero:~$ cd /media/datadrive/Githubprojects
+bash: cd: /media/datadrive/Githubprojects: No such file or directory
+nero@j2xpnero:~$ cd /media/datadrive/GithuProjects
+bash: cd: /media/datadrive/GithuProjects: No such file or directory
+nero@j2xpnero:~$ cd 
+nero@j2xpnero:~$ c d/
+c: command not found
+nero@j2xpnero:~$ cd..
+cd..: command not found
+nero@j2xpnero:~$ cd ..
+nero@j2xpnero:/home$ cd datadrive
+bash: cd: datadrive: No such file or directory
+nero@j2xpnero:/home$ cd datadrive1
+bash: cd: datadrive1: No such file or directory
+nero@j2xpnero:/home$ cd media
+bash: cd: media: No such file or directory
+nero@j2xpnero:/home$ d ..
+d: command not found
+nero@j2xpnero:/home$ cd ..
+nero@j2xpnero:/$ cd media
+nero@j2xpnero:/media$ cd datadrive
+bash: cd: datadrive: No such file or directory
+nero@j2xpnero:/media$ cd DATADRIVE
+nero@j2xpnero:/media/DATADRIVE$ cd GithubProjects
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git 
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global user.name "gcc-dav-official-github
+> git config --global user.email "gcc.dav.official.github@gmail.com
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init projects
+Initialized empty Git repository in /media/DATADRIVE/GithubProjects/projects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/projects.git
+fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init projects
+Reinitialized existing Git repository in /media/DATADRIVE/GithubProjects/projects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global user.name 'George Epure"
+> git config --global user.email "george.epure@toronto.ca"
+> git init projects
+> git remote add origin https://github.com/gcc-dav-official-github/projects.git
+> git add --all
+> git commit -m "message"
+> git push origin master
+> 
+> git config --global user.name 'George Epure"
+git config --global user.email "george.epure@toronto.ca"
+git init projects
+git remote add origin https://github.com/gcc-dav-official-github/projects.git
+git add --all
+git commit -m "message"
+git push origin master
+> ^C
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global user.name "George Epure"
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global user.email "george.epure@toronto.ca
+> git config --global user.email "george.epure@toronto.ca"
+> ^C
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global user.email "george.epure@toronto.ca"
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/projects.git
+fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/projects.git
+fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init projects
+Reinitialized existing Git repository in /media/DATADRIVE/GithubProjects/projects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/projects.git
+fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git --git-dir=/media/DATADRIVE/GithubProjects/projects/.git WORK_TREE=/media/DATADRIVE/GithubProjects/projects
+git: 'WORK_TREE=/media/DATADRIVE/GithubProjects/projects' is not a git command. See 'git --help'.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git --git-dir=/media/DATADRIVE/GithubProjects/projects/.git --work-tree=/media/DATADRIVE/GithubProjects/projects
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git --git-dir=/media/DATADRIVE/GithubProjects/projects/.git --work-tree=/media/DATADRIVE/GithubProjects/projects
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init
+Initialized empty Git repository in /media/DATADRIVE/GithubProjects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init projects
+Reinitialized existing Git repository in /media/DATADRIVE/GithubProjects/projects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init
+Reinitialized existing Git repository in /media/DATADRIVE/GithubProjects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/projects.git
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+[master (root-commit) 9868b1a] message
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 projects/permeability/requirements/dav_permiability_project_outline.pdf
+ create mode 100644 projects/walkability/requirements/2018-07-10 Memo TS and GCC on PedestrianPlanMaps_RG.PDF
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+fatal: unable to access 'https://github.com/gcc-dav-official-github/projects.git/': Failed to connect to proxy.toronto.ca port 80: Connection timed out
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global http.https://proxy.toronto.ca http://gepure:manley70@proxy.toronto.ca:8080
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+^C
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git config --global http.proxy http://gepure:manley70@proxy.toronto.ca:8080
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+To https://github.com/gcc-dav-official-github/projects.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/gcc-dav-official-github/projects.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git pull origin master
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/gcc-dav-official-github/projects
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+To https://github.com/gcc-dav-official-github/projects.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/gcc-dav-official-github/projects.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/gcc-dav-official-github/projects.git/' not found
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/gcc-dav-official-github/projects.git/'
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 319.13 KiB | 19.95 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/gcc-dav-official-github/projects.git
+ * [new branch]      master -> master
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+[master 41e57f7] message
+ 13 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 projects/energy/code/README
+ create mode 100644 projects/energy/docs/README
+ create mode 100644 projects/energy/presentations/README
+ create mode 100644 projects/energy/reports/README
+ create mode 100644 projects/energy/requirements/README
+ create mode 100644 projects/permeability/code/README
+ create mode 100644 projects/permeability/docs/README
+ create mode 100644 projects/permeability/presentations/README
+ create mode 100644 projects/permeability/reports/README
+ create mode 100644 projects/walkability/code/README
+ create mode 100644 projects/walkability/docs/README
+ create mode 100644 projects/walkability/presentations/README
+ create mode 100644 projects/walkability/reports/README
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 552 bytes | 276.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/gcc-dav-official-github/projects.git
+   9868b1a..41e57f7  master -> master
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/production.git
+fatal: remote origin already exists.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+On branch master
+nothing to commit, working tree clean
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/gcc-dav-official-github/projects.git/' not found
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/production.git
+fatal: remote origin already exists.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/production.git
+fatal: remote origin already exists.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git init projects
+Reinitialized existing Git repository in /media/DATADRIVE/GithubProjects/projects/.git/
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+On branch master
+nothing to commit, working tree clean
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+origin	https://github.com/gcc-dav-official-github/projects.git (fetch)
+origin	https://github.com/gcc-dav-official-github/projects.git (push)
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote rm projects
+fatal: No such remote: projects
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+origin	https://github.com/gcc-dav-official-github/projects.git (fetch)
+origin	https://github.com/gcc-dav-official-github/projects.git (push)
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/production.git
+fatal: remote origin already exists.
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+origin	https://github.com/gcc-dav-official-github/projects.git (fetch)
+origin	https://github.com/gcc-dav-official-github/projects.git (push)
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+On branch master
+nothing to commit, working tree clean
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote rm projects
+fatal: No such remote: projects
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote rm production
+fatal: No such remote: production
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+origin	https://github.com/gcc-dav-official-github/projects.git (fetch)
+origin	https://github.com/gcc-dav-official-github/projects.git (push)
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote remove origin
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote add origin https://github.com/gcc-dav-official-github/production.git
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git remote -v
+origin	https://github.com/gcc-dav-official-github/production.git (fetch)
+origin	https://github.com/gcc-dav-official-github/production.git (push)
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+On branch master
+nothing to commit, working tree clean
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+Counting objects: 17, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (17/17), 319.64 KiB | 19.98 MiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/gcc-dav-official-github/production.git
+ * [new branch]      master -> master
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+[master d4636bb] message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 projects/energy/requirements/EED EWRB GIS Tool.docx
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 12.91 KiB | 6.46 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gcc-dav-official-github/production.git
+   41e57f7..d4636bb  master -> master
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git add --all
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git commit -m "message"
+[master 21478fd] message
+ 2 files changed, 58090 insertions(+)
+ create mode 100644 projects/walkability/code/Check_sidewalk_codes_with_esm_data.ipynb
+ create mode 100644 projects/walkability/code/walkability_data_processing_step2_assigning_measurements-Aug23.ipynb
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ git push origin master
+Username for 'https://github.com': gcc-dav-official-github
+Password for 'https://gcc-dav-official-github@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.47 MiB | 1.90 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/gcc-dav-official-github/production.git
+   d4636bb..21478fd  master -> master
+nero@j2xpnero:/media/DATADRIVE/GithubProjects$ 
+Wednesday, January 30, 2019
+
