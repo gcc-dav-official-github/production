@@ -1,0 +1,3362 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "blue",
+      "default",
+      "black",
+      "cyan",
+      "green",
+      "purple",
+      "red",
+      "yellow"
+    ],
+    "version": "2.10",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://insideto-geoportal.toronto.ca/portal",
+  "appId": "",
+  "authorizedCrossOriginDomains": [
+    "map-intra-sit.toronto.ca",
+    "web.fulcrumapp.com"
+  ],
+  "title": "Toronto Energy Footprint",
+  "subtitle": "created by Data Analysis and Visualization (DAV)",
+  "keepAppState": true,
+  "logo": "images/logo.gif",
+  "geometryService": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Utilities/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "Environment & Energy Division",
+      "url": "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/environment-energy/"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.10",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_2.json"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 7,
+          "bottom": 70,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "name": "BasemapGallery",
+        "version": "2.10",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__5.json"
+      },
+      {
+        "position": {
+          "left": 57,
+          "bottom": 70,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_6",
+        "name": "Chart",
+        "version": "2.10",
+        "closeable": true,
+        "uri": "widgets/Chart/Widget",
+        "config": "configs/Chart/config__6.json",
+        "label": "Energy Use and Year Built",
+        "icon": "configs\\Chart\\icon__6.png"
+      },
+      {
+        "position": {
+          "left": 107,
+          "bottom": 70,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_7",
+        "name": "Infographic",
+        "version": "2.10",
+        "closeable": true,
+        "uri": "widgets/Infographic/Widget",
+        "label": "Greenhouse Gas Emissions by Occupancy",
+        "config": "configs/Infographic/config__7.json",
+        "icon": "configs\\Infographic\\icon__7.png"
+      },
+      {
+        "position": {
+          "left": 157,
+          "bottom": 70,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_8",
+        "name": "Infographic",
+        "label": "Source Energy Use Intensity and Weather Normalized Source Energy Use Intensity",
+        "version": "2.10",
+        "closeable": true,
+        "uri": "widgets/Infographic/Widget",
+        "config": "configs/Infographic/config__8.json",
+        "icon": "configs\\Infographic\\icon__8.png"
+      },
+      {
+        "position": {
+          "left": 207,
+          "bottom": 70,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_9",
+        "name": "GroupFilter",
+        "version": "2.10",
+        "closeable": true,
+        "uri": "widgets/GroupFilter/Widget",
+        "config": "configs/GroupFilter/config__9.json",
+        "label": "Property Type and Year Built"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_widgets_OverviewMap_Widget_10.json"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.10",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_13.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.10",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_14.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "top": 190,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.10"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "top": 150,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.10",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "14cf6a84968c462191302c985449b9ca",
+    "mapOptions": {
+      "extent": {
+        "xmin": -8861890.090817558,
+        "ymin": 5401890.4223422995,
+        "xmax": -8803797.949320903,
+        "ymax": 5438465.540376707,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://insideto-geoportal.toronto.ca/portal",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.10",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 2,
+        "openAtStart": false
+      },
+      {
+        "name": "Infographic",
+        "label": "Site Energy Use Intensity by Year Built",
+        "version": "2.10",
+        "uri": "widgets/Infographic/Widget",
+        "index": 3,
+        "id": "widgets_Infographic_Widget_21",
+        "config": "configs/Infographic/config_widgets_Infographic_Widget_21.json",
+        "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_21.png"
+      },
+      {
+        "name": "Infographic",
+        "label": "Water Use by Property Type",
+        "version": "2.10",
+        "uri": "widgets/Infographic/Widget",
+        "index": 4,
+        "id": "widgets_Infographic_Widget_22",
+        "config": "configs/Infographic/config_widgets_Infographic_Widget_22.json",
+        "icon": "configs\\Infographic\\icon_widgets_Infographic_Widget_22.png"
+      },
+      {
+        "name": "Query",
+        "version": "2.10",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_26.json",
+        "index": 6,
+        "id": "widgets_Query_Widget_26"
+      },
+      {
+        "name": "Summary",
+        "version": "2.10",
+        "icon": "configs\\Summary\\icon_widgets_Summary_Widget_27.png",
+        "uri": "widgets/Summary/Widget",
+        "config": "configs/Summary/config_widgets_Summary_Widget_27.json",
+        "index": 8,
+        "id": "widgets_Summary_Widget_27",
+        "position": {
+          "relativeTo": "map"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "label": "Group Filter",
+        "widgets": [
+          {
+            "name": "Filter",
+            "version": "2.10",
+            "uri": "widgets/Filter/Widget",
+            "config": "configs/Filter/config_widgets_Filter_Widget_23.json",
+            "index": 5,
+            "id": "widgets_Filter_Widget_23",
+            "label": "Property Type"
+          },
+          {
+            "name": "Filter",
+            "label": "Year Built",
+            "version": "2.10",
+            "uri": "widgets/Filter/Widget",
+            "config": "configs/Filter/config_widgets_Filter_Widget_24.json",
+            "index": 7,
+            "id": "widgets_Filter_Widget_24"
+          }
+        ],
+        "index": 5,
+        "id": "_25",
+        "visible": true,
+        "panel": {
+          "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+          "position": {
+            "top": 5,
+            "right": 5,
+            "bottom": 5,
+            "zIndex": 5,
+            "relativeTo": "map"
+          }
+        },
+        "groupPopupTitle": "Configure"
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 55,
+            "top": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "position": {
+            "left": 7,
+            "bottom": 70,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 57,
+            "bottom": 70,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 107,
+            "bottom": 70,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 157,
+            "bottom": 70,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 207,
+            "bottom": 70,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110,
+            "relativeTo": "map"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.10",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 190,
+            "left": 7
+          },
+          "version": "2.10"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "top": 150,
+            "left": 7
+          },
+          "version": "2.10"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": true
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 995,
+      "height": 800
+    }
+  },
+  "wabVersion": "2.10",
+  "isTemplateApp": true,
+  "isWebTier": true,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "https://localhost:3344/proxy.js"
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_26~0": {
+        "id": "widget~widgets_Query_Widget_26~0",
+        "type": "Features",
+        "label": "Property Type",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "nullable": false,
+              "editable": false
+            },
+            {
+              "name": "ontario_ewrb_id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Ontario EWRB ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "property_id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Property Id",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parent_property_id",
+              "type": "esriFieldTypeString",
+              "alias": "Parent Property Id",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "parent_property_name",
+              "type": "esriFieldTypeString",
+              "alias": "Parent Property Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_1___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 1 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_2___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 2 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "year_ending",
+              "type": "esriFieldTypeDate",
+              "alias": "Year Ending",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "generation_date",
+              "type": "esriFieldTypeDate",
+              "alias": "Generation Date",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "release_date",
+              "type": "esriFieldTypeDate",
+              "alias": "Release Date",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "property_name",
+              "type": "esriFieldTypeString",
+              "alias": "Property Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "xx",
+              "type": "esriFieldTypeDouble",
+              "alias": "XX",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "yy",
+              "type": "esriFieldTypeDouble",
+              "alias": "YY",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "address_1",
+              "type": "esriFieldTypeString",
+              "alias": "Address 1",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "address_2",
+              "type": "esriFieldTypeString",
+              "alias": "Address 2",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "city",
+              "type": "esriFieldTypeString",
+              "alias": "City",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "state_province",
+              "type": "esriFieldTypeString",
+              "alias": "State/Province",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "postal_code",
+              "type": "esriFieldTypeString",
+              "alias": "Postal Code",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "primary_property_type___self_se",
+              "type": "esriFieldTypeString",
+              "alias": "Primary Property Type - Self Selected",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "number_of_buildings",
+              "type": "esriFieldTypeInteger",
+              "alias": "Number of Buildings",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "year_built",
+              "type": "esriFieldTypeInteger",
+              "alias": "Year Built",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "occupancy",
+              "type": "esriFieldTypeInteger",
+              "alias": "Occupancy",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "third_party_certification",
+              "type": "esriFieldTypeString",
+              "alias": "Third Party Certification",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_data_administrator",
+              "type": "esriFieldTypeString",
+              "alias": "Property Data Administrator",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_data_administrator___e",
+              "type": "esriFieldTypeString",
+              "alias": "Property Data Administrator - Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "on_behalf_of",
+              "type": "esriFieldTypeString",
+              "alias": "On Behalf Of",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "organization",
+              "type": "esriFieldTypeString",
+              "alias": "Organization",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "phone",
+              "type": "esriFieldTypeString",
+              "alias": "Phone",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "gfa_sum",
+              "type": "esriFieldTypeString",
+              "alias": "GFA Sum",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_gfa___self_reported__f",
+              "type": "esriFieldTypeString",
+              "alias": "Property GFA - Self-Reported (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_1___id",
+              "type": "esriFieldTypeDouble",
+              "alias": "Custom Property ID 1 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "mpac_type",
+              "type": "esriFieldTypeString",
+              "alias": "MPAC Type",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "mpac_code",
+              "type": "esriFieldTypeInteger",
+              "alias": "MPAC Code",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "custom_property_id_2___id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Custom Property ID 2 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "custom_property_id_3___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 3 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_3___id",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 3 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "data_quality_checker_run_",
+              "type": "esriFieldTypeString",
+              "alias": "Data Quality Checker Run?",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "data_quality_checker___date_run",
+              "type": "esriFieldTypeDate",
+              "alias": "Data Quality Checker - Date Run",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "property_notes",
+              "type": "esriFieldTypeString",
+              "alias": "Property Notes",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "adult_education___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Adult Education - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "ambulatory_surgical_center___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "aquarium___gross_floor_area__ft",
+              "type": "esriFieldTypeString",
+              "alias": "Aquarium - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "automobile_dealership___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bank_branch___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "Bank Branch - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bar_nightclub___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "barracks__gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Barracks- Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bowling_alley___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Bowling Alley - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "casino___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Casino - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "college_university___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "College/University - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convenience_store_with_gas_stat",
+              "type": "esriFieldTypeString",
+              "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convenience_store_without_gas_s",
+              "type": "esriFieldTypeString",
+              "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convention_center___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Convention Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "distribution_center___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Distribution Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "drinking_water_treatment___dist",
+              "type": "esriFieldTypeString",
+              "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "enclosed_mall___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fast_food_restaurant___gross_fl",
+              "type": "esriFieldTypeString",
+              "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "financial_office___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Financial Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fitness_center_health_club_gym_",
+              "type": "esriFieldTypeString",
+              "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "food_sales___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Food Sales - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "food_service___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Food Service - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "hospital__general_medical___sur",
+              "type": "esriFieldTypeString",
+              "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "hotel___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Hotel - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "ice_curling_rink___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "indoor_arena___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Indoor Arena - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "k_12_school___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "K-12 School - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "laboratory___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Laboratory - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "library___gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Library - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "lifestyle_center___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "medical_office___gross_floor_ar",
+              "type": "esriFieldTypeString",
+              "alias": "Medical Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "movie_theater___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Movie Theater - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "multifamily_housing___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "museum___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Museum - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "non_refrigerated_warehouse___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "office___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___education___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Education - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___entertainment_public_as",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___lodging_residential___g",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___mall___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Mall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___recreation___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Recreation - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___restaurant_bar___gross_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___services___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Services - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___specialty_hospital___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___stadium___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Stadium - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___technology_science___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "outpatient_rehabilitation_physi",
+              "type": "esriFieldTypeString",
+              "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "parking___gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Parking - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "performing_arts___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Performing Arts - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "personal_services__health_beaut",
+              "type": "esriFieldTypeString",
+              "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "pre_school_daycare___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "refrigerated_warehouse___gross_",
+              "type": "esriFieldTypeString",
+              "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "repair_services__vehicle__shoe_",
+              "type": "esriFieldTypeString",
+              "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "residence_hall_dormitory___gros",
+              "type": "esriFieldTypeString",
+              "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "residential_care_facility___gro",
+              "type": "esriFieldTypeString",
+              "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "restaurant___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Restaurant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "retail_store___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Retail Store - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "roller_rink___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "Roller Rink - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "self_storage_facility___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "senior_care_community___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Senior Care Community - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "social_meeting_hall___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "stadium__closed____gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "stadium__open____gross_floor_ar",
+              "type": "esriFieldTypeString",
+              "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "strip_mall___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Strip Mall - Gross Floor Area (ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "supermarket_grocery___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "transportation_terminal_station",
+              "type": "esriFieldTypeString",
+              "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "urgent_care_clinic_other_outpat",
+              "type": "esriFieldTypeString",
+              "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "veterinary_office___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Veterinary Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "vocational_school___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Vocational School - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wastewater_treatment_plant___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wholesale_club_supercenter__gro",
+              "type": "esriFieldTypeString",
+              "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "worship_facility___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Worship Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "zoo___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Zoo - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use___grid_purchase",
+              "type": "esriFieldTypeInteger",
+              "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_electri",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Site Electricity (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_elect_1",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "electricity_use___grid_purcha_1",
+              "type": "esriFieldTypeInteger",
+              "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "natural_gas_use__therms_",
+              "type": "esriFieldTypeString",
+              "alias": "Natural Gas Use (therms)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_site_natural",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Site Natural Gas Use (therms)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_site_natur_1",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "natural_gas_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Natural Gas Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "diesel__2_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Diesel #2 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "propane_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Propane Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_steam_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "District Steam Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_chilled_water_use__kbt",
+              "type": "esriFieldTypeString",
+              "alias": "District Chilled Water Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use_–_generated_fro",
+              "type": "esriFieldTypeString",
+              "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use_–_generated_f_1",
+              "type": "esriFieldTypeString",
+              "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__1_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #1 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__2_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #2 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__4_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #4 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__5___6_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "kerosene_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Kerosene Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_hot_water_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "District Hot Water Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "coke_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Coke Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wood_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Wood Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Other Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "water_wastewater_site_eui__kbtu",
+              "type": "esriFieldTypeString",
+              "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "water_wastewater_source_eui__kb",
+              "type": "esriFieldTypeString",
+              "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wastew",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_1",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_2",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_3",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "site_energy_use__kbtu_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Site Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_energy_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Site Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "source_energy_use__kbtu_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Source Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_source_energ",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Source Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "site_eui__kbtu_ft2_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Site EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_eui__kb",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "source_eui__kbtu_ft2_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Source EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_source_eui__",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "water_use__all_water_sources___",
+              "type": "esriFieldTypeInteger",
+              "alias": "Water Use (All Water Sources) (kgal)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "indoor_water_use__all_water_sou",
+              "type": "esriFieldTypeString",
+              "alias": "Indoor Water Use (All Water Sources) (kgal)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "energy_star_score",
+              "type": "esriFieldTypeString",
+              "alias": "ENERGY STAR Score",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "total_ghg_emissions__metric_ton",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total GHG Emissions (Metric Tons CO2e)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "total_ghg_emissions_intensity__",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "displayField": "parent_property_name",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "nullable": false,
+            "editable": false
+          },
+          "typeIdField": "primary_property_type___self_se"
+        }
+      },
+      "widget~widgets_Query_Widget_26~1": {
+        "id": "widget~widgets_Query_Widget_26~1",
+        "type": "Features",
+        "label": "Number of Buildings",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "nullable": false,
+              "editable": false
+            },
+            {
+              "name": "ontario_ewrb_id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Ontario EWRB ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "property_id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Property Id",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "parent_property_id",
+              "type": "esriFieldTypeString",
+              "alias": "Parent Property Id",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "parent_property_name",
+              "type": "esriFieldTypeString",
+              "alias": "Parent Property Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_1___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 1 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_2___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 2 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "year_ending",
+              "type": "esriFieldTypeDate",
+              "alias": "Year Ending",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "generation_date",
+              "type": "esriFieldTypeDate",
+              "alias": "Generation Date",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "release_date",
+              "type": "esriFieldTypeDate",
+              "alias": "Release Date",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "property_name",
+              "type": "esriFieldTypeString",
+              "alias": "Property Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "xx",
+              "type": "esriFieldTypeDouble",
+              "alias": "XX",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "yy",
+              "type": "esriFieldTypeDouble",
+              "alias": "YY",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "address_1",
+              "type": "esriFieldTypeString",
+              "alias": "Address 1",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "address_2",
+              "type": "esriFieldTypeString",
+              "alias": "Address 2",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "city",
+              "type": "esriFieldTypeString",
+              "alias": "City",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "state_province",
+              "type": "esriFieldTypeString",
+              "alias": "State/Province",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "postal_code",
+              "type": "esriFieldTypeString",
+              "alias": "Postal Code",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "primary_property_type___self_se",
+              "type": "esriFieldTypeString",
+              "alias": "Primary Property Type - Self Selected",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "number_of_buildings",
+              "type": "esriFieldTypeInteger",
+              "alias": "Number of Buildings",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "year_built",
+              "type": "esriFieldTypeInteger",
+              "alias": "Year Built",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "occupancy",
+              "type": "esriFieldTypeInteger",
+              "alias": "Occupancy",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "third_party_certification",
+              "type": "esriFieldTypeString",
+              "alias": "Third Party Certification",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_data_administrator",
+              "type": "esriFieldTypeString",
+              "alias": "Property Data Administrator",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_data_administrator___e",
+              "type": "esriFieldTypeString",
+              "alias": "Property Data Administrator - Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "on_behalf_of",
+              "type": "esriFieldTypeString",
+              "alias": "On Behalf Of",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "organization",
+              "type": "esriFieldTypeString",
+              "alias": "Organization",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "phone",
+              "type": "esriFieldTypeString",
+              "alias": "Phone",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "email",
+              "type": "esriFieldTypeString",
+              "alias": "Email",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "gfa_sum",
+              "type": "esriFieldTypeString",
+              "alias": "GFA Sum",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "property_gfa___self_reported__f",
+              "type": "esriFieldTypeString",
+              "alias": "Property GFA - Self-Reported (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_1___id",
+              "type": "esriFieldTypeDouble",
+              "alias": "Custom Property ID 1 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "mpac_type",
+              "type": "esriFieldTypeString",
+              "alias": "MPAC Type",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "mpac_code",
+              "type": "esriFieldTypeInteger",
+              "alias": "MPAC Code",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "custom_property_id_2___id",
+              "type": "esriFieldTypeInteger",
+              "alias": "Custom Property ID 2 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "custom_property_id_3___name",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 3 - Name",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "custom_property_id_3___id",
+              "type": "esriFieldTypeString",
+              "alias": "Custom Property ID 3 - ID",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "data_quality_checker_run_",
+              "type": "esriFieldTypeString",
+              "alias": "Data Quality Checker Run?",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "data_quality_checker___date_run",
+              "type": "esriFieldTypeDate",
+              "alias": "Data Quality Checker - Date Run",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 29
+            },
+            {
+              "name": "property_notes",
+              "type": "esriFieldTypeString",
+              "alias": "Property Notes",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "adult_education___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Adult Education - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "ambulatory_surgical_center___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "aquarium___gross_floor_area__ft",
+              "type": "esriFieldTypeString",
+              "alias": "Aquarium - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "automobile_dealership___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bank_branch___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "Bank Branch - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bar_nightclub___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "barracks__gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Barracks- Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "bowling_alley___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Bowling Alley - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "casino___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Casino - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "college_university___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "College/University - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convenience_store_with_gas_stat",
+              "type": "esriFieldTypeString",
+              "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convenience_store_without_gas_s",
+              "type": "esriFieldTypeString",
+              "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "convention_center___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Convention Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "distribution_center___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Distribution Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "drinking_water_treatment___dist",
+              "type": "esriFieldTypeString",
+              "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "enclosed_mall___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fast_food_restaurant___gross_fl",
+              "type": "esriFieldTypeString",
+              "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "financial_office___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Financial Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fitness_center_health_club_gym_",
+              "type": "esriFieldTypeString",
+              "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "food_sales___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Food Sales - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "food_service___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Food Service - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "hospital__general_medical___sur",
+              "type": "esriFieldTypeString",
+              "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "hotel___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Hotel - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "ice_curling_rink___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "indoor_arena___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Indoor Arena - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "k_12_school___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "K-12 School - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "laboratory___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Laboratory - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "library___gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Library - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "lifestyle_center___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "medical_office___gross_floor_ar",
+              "type": "esriFieldTypeString",
+              "alias": "Medical Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "movie_theater___gross_floor_are",
+              "type": "esriFieldTypeString",
+              "alias": "Movie Theater - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "multifamily_housing___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "museum___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Museum - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "non_refrigerated_warehouse___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "office___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___education___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Education - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___entertainment_public_as",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___lodging_residential___g",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___mall___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Mall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___recreation___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Recreation - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___restaurant_bar___gross_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___services___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Services - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___specialty_hospital___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___stadium___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Stadium - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other___technology_science___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "outpatient_rehabilitation_physi",
+              "type": "esriFieldTypeString",
+              "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "parking___gross_floor_area__ft2",
+              "type": "esriFieldTypeString",
+              "alias": "Parking - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "performing_arts___gross_floor_a",
+              "type": "esriFieldTypeString",
+              "alias": "Performing Arts - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "personal_services__health_beaut",
+              "type": "esriFieldTypeString",
+              "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "pre_school_daycare___gross_floo",
+              "type": "esriFieldTypeString",
+              "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "refrigerated_warehouse___gross_",
+              "type": "esriFieldTypeString",
+              "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "repair_services__vehicle__shoe_",
+              "type": "esriFieldTypeString",
+              "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "residence_hall_dormitory___gros",
+              "type": "esriFieldTypeString",
+              "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "residential_care_facility___gro",
+              "type": "esriFieldTypeString",
+              "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "restaurant___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Restaurant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "retail_store___gross_floor_area",
+              "type": "esriFieldTypeString",
+              "alias": "Retail Store - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "roller_rink___gross_floor_area_",
+              "type": "esriFieldTypeString",
+              "alias": "Roller Rink - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "self_storage_facility___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "senior_care_community___gross_f",
+              "type": "esriFieldTypeString",
+              "alias": "Senior Care Community - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "social_meeting_hall___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "stadium__closed____gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "stadium__open____gross_floor_ar",
+              "type": "esriFieldTypeString",
+              "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "strip_mall___gross_floor_area__",
+              "type": "esriFieldTypeString",
+              "alias": "Strip Mall - Gross Floor Area (ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "supermarket_grocery___gross_flo",
+              "type": "esriFieldTypeString",
+              "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "transportation_terminal_station",
+              "type": "esriFieldTypeString",
+              "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "urgent_care_clinic_other_outpat",
+              "type": "esriFieldTypeString",
+              "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "veterinary_office___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Veterinary Office - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "vocational_school___gross_floor",
+              "type": "esriFieldTypeString",
+              "alias": "Vocational School - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wastewater_treatment_plant___gr",
+              "type": "esriFieldTypeString",
+              "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wholesale_club_supercenter__gro",
+              "type": "esriFieldTypeString",
+              "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "worship_facility___gross_floor_",
+              "type": "esriFieldTypeString",
+              "alias": "Worship Facility - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "zoo___gross_floor_area__ft2_",
+              "type": "esriFieldTypeString",
+              "alias": "Zoo - Gross Floor Area (ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use___grid_purchase",
+              "type": "esriFieldTypeInteger",
+              "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_electri",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Site Electricity (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_elect_1",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "electricity_use___grid_purcha_1",
+              "type": "esriFieldTypeInteger",
+              "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "natural_gas_use__therms_",
+              "type": "esriFieldTypeString",
+              "alias": "Natural Gas Use (therms)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_site_natural",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Site Natural Gas Use (therms)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_site_natur_1",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "natural_gas_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Natural Gas Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "diesel__2_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Diesel #2 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "propane_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Propane Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_steam_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "District Steam Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_chilled_water_use__kbt",
+              "type": "esriFieldTypeString",
+              "alias": "District Chilled Water Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use_–_generated_fro",
+              "type": "esriFieldTypeString",
+              "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "electricity_use_–_generated_f_1",
+              "type": "esriFieldTypeString",
+              "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__1_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #1 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__2_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #2 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__4_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #4 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "fuel_oil__5___6_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "kerosene_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Kerosene Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "district_hot_water_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "District Hot Water Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "coke_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Coke Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "wood_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Wood Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "other_use__kbtu_",
+              "type": "esriFieldTypeString",
+              "alias": "Other Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "water_wastewater_site_eui__kbtu",
+              "type": "esriFieldTypeString",
+              "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "water_wastewater_source_eui__kb",
+              "type": "esriFieldTypeString",
+              "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wastew",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_1",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_2",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "weather_normalized_water_wast_3",
+              "type": "esriFieldTypeString",
+              "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "site_energy_use__kbtu_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Site Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_energy_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Site Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "source_energy_use__kbtu_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Source Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_source_energ",
+              "type": "esriFieldTypeInteger",
+              "alias": "Weather Normalized Source Energy Use (kBtu)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "site_eui__kbtu_ft2_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Site EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_site_eui__kb",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "source_eui__kbtu_ft2_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Source EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "weather_normalized_source_eui__",
+              "type": "esriFieldTypeDouble",
+              "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "water_use__all_water_sources___",
+              "type": "esriFieldTypeInteger",
+              "alias": "Water Use (All Water Sources) (kgal)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "indoor_water_use__all_water_sou",
+              "type": "esriFieldTypeString",
+              "alias": "Indoor Water Use (All Water Sources) (kgal)",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "energy_star_score",
+              "type": "esriFieldTypeString",
+              "alias": "ENERGY STAR Score",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 8000
+            },
+            {
+              "name": "total_ghg_emissions__metric_ton",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total GHG Emissions (Metric Tons CO2e)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            },
+            {
+              "name": "total_ghg_emissions_intensity__",
+              "type": "esriFieldTypeDouble",
+              "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+              "domain": null,
+              "editable": true,
+              "nullable": true
+            }
+          ],
+          "displayField": "parent_property_name",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "nullable": false,
+            "editable": false
+          },
+          "typeIdField": "primary_property_type___self_se"
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "https://www.toronto.ca/wp-content/themes/cot/img/logo.svg"
+}

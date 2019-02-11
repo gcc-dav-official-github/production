@@ -1,0 +1,164 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Tasks",
+  "labelResults": "Results",
+  "showFilterLabel": true,
+  "criteiraLabel": "Query criteria",
+  "spatialFilterLabel": "Spatial filters",
+  "queries": [
+    {
+      "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+      "name": "Property Type",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://insideto-geoportal.toronto.ca/portal/portalimages/Symbols/Basic/RedStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "primary_property_type___self_se",
+              "label": "primary_property_type___self_se",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "Primary Property Type - Self Selected is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": {
+          "default": false,
+          "geometryTypes": [
+            "POINT",
+            "POLYLINE",
+            "EXTENT"
+          ],
+          "buffer": null
+        },
+        "useFeatures": null,
+        "fullLayerExtent": {
+          "default": false
+        }
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": false,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "energy_use_sample_4615_2360"
+    },
+    {
+      "url": "",
+      "name": "Number of Buildings",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://insideto-geoportal.toronto.ca/portal/portalimages/Symbols/Basic/GreenStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "number_of_buildings",
+              "label": "number_of_buildings",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "Number of Buildings is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": {
+          "default": false,
+          "geometryTypes": [
+            "POINT",
+            "POLYLINE",
+            "EXTENT"
+          ],
+          "buffer": null
+        },
+        "useFeatures": null,
+        "fullLayerExtent": {
+          "default": false
+        }
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://insideto-geoportal.toronto.ca/portal/portalimages/Symbols/Basic/BlackBeacon.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "energy_use_sample_4615_2360"
+    }
+  ]
+}

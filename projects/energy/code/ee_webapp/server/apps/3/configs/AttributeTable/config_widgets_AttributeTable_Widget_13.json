@@ -1,0 +1,3673 @@
+{
+  "layerInfos": [
+    {
+      "name": "Energy Use Intensity",
+      "id": "energy_use_sample_4615_2360_6531",
+      "layer": {
+        "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "ontario_ewrb_id",
+            "alias": "Ontario EWRB ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "property_id",
+            "alias": "Property Id",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "parent_property_id",
+            "alias": "Parent Property Id",
+            "show": false
+          },
+          {
+            "name": "parent_property_name",
+            "alias": "Parent Property Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___name",
+            "alias": "Custom Property ID 1 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_2___name",
+            "alias": "Custom Property ID 2 - Name",
+            "show": false
+          },
+          {
+            "name": "year_ending",
+            "alias": "Year Ending",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "generation_date",
+            "alias": "Generation Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "release_date",
+            "alias": "Release Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "xx",
+            "alias": "XX",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "yy",
+            "alias": "YY",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "address_1",
+            "alias": "Address 1",
+            "show": false
+          },
+          {
+            "name": "address_2",
+            "alias": "Address 2",
+            "show": false
+          },
+          {
+            "name": "city",
+            "alias": "City",
+            "show": false
+          },
+          {
+            "name": "state_province",
+            "alias": "State/Province",
+            "show": false
+          },
+          {
+            "name": "postal_code",
+            "alias": "Postal Code",
+            "show": false
+          },
+          {
+            "name": "property_name",
+            "alias": "Property Name",
+            "show": true
+          },
+          {
+            "name": "number_of_buildings",
+            "alias": "Number of Buildings",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "primary_property_type___self_se",
+            "alias": "Primary Property Type - Self Selected",
+            "show": false
+          },
+          {
+            "name": "third_party_certification",
+            "alias": "Third Party Certification",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator",
+            "alias": "Property Data Administrator",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator___e",
+            "alias": "Property Data Administrator - Email",
+            "show": false
+          },
+          {
+            "name": "on_behalf_of",
+            "alias": "On Behalf Of",
+            "show": false
+          },
+          {
+            "name": "organization",
+            "alias": "Organization",
+            "show": false
+          },
+          {
+            "name": "phone",
+            "alias": "Phone",
+            "show": false
+          },
+          {
+            "name": "email",
+            "alias": "Email",
+            "show": false
+          },
+          {
+            "name": "gfa_sum",
+            "alias": "GFA Sum",
+            "show": false
+          },
+          {
+            "name": "property_gfa___self_reported__f",
+            "alias": "Property GFA - Self-Reported (ft2)",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___id",
+            "alias": "Custom Property ID 1 - ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "mpac_type",
+            "alias": "MPAC Type",
+            "show": false
+          },
+          {
+            "name": "mpac_code",
+            "alias": "MPAC Code",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_2___id",
+            "alias": "Custom Property ID 2 - ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_3___name",
+            "alias": "Custom Property ID 3 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_3___id",
+            "alias": "Custom Property ID 3 - ID",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker_run_",
+            "alias": "Data Quality Checker Run?",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker___date_run",
+            "alias": "Data Quality Checker - Date Run",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "property_notes",
+            "alias": "Property Notes",
+            "show": false
+          },
+          {
+            "name": "adult_education___gross_floor_a",
+            "alias": "Adult Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ambulatory_surgical_center___gr",
+            "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "aquarium___gross_floor_area__ft",
+            "alias": "Aquarium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "automobile_dealership___gross_f",
+            "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bank_branch___gross_floor_area_",
+            "alias": "Bank Branch - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bar_nightclub___gross_floor_are",
+            "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "barracks__gross_floor_area__ft2",
+            "alias": "Barracks- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bowling_alley___gross_floor_are",
+            "alias": "Bowling Alley - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "casino___gross_floor_area__ft2_",
+            "alias": "Casino - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "college_university___gross_floo",
+            "alias": "College/University - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_with_gas_stat",
+            "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_without_gas_s",
+            "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convention_center___gross_floor",
+            "alias": "Convention Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "distribution_center___gross_flo",
+            "alias": "Distribution Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "drinking_water_treatment___dist",
+            "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "enclosed_mall___gross_floor_are",
+            "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fast_food_restaurant___gross_fl",
+            "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "financial_office___gross_floor_",
+            "alias": "Financial Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fitness_center_health_club_gym_",
+            "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_sales___gross_floor_area__",
+            "alias": "Food Sales - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_service___gross_floor_area",
+            "alias": "Food Service - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hospital__general_medical___sur",
+            "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hotel___gross_floor_area__ft2_",
+            "alias": "Hotel - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ice_curling_rink___gross_floor_",
+            "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "indoor_arena___gross_floor_area",
+            "alias": "Indoor Arena - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "k_12_school___gross_floor_area_",
+            "alias": "K-12 School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "laboratory___gross_floor_area__",
+            "alias": "Laboratory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "library___gross_floor_area__ft2",
+            "alias": "Library - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "lifestyle_center___gross_floor_",
+            "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "medical_office___gross_floor_ar",
+            "alias": "Medical Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "movie_theater___gross_floor_are",
+            "alias": "Movie Theater - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "multifamily_housing___gross_flo",
+            "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "museum___gross_floor_area__ft2_",
+            "alias": "Museum - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "non_refrigerated_warehouse___gr",
+            "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "office___gross_floor_area__ft2_",
+            "alias": "Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___education___gross_floor",
+            "alias": "Other - Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___entertainment_public_as",
+            "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___gross_floor_area__ft2_",
+            "alias": "Other - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___lodging_residential___g",
+            "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___mall___gross_floor_area",
+            "alias": "Other - Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___recreation___gross_floo",
+            "alias": "Other - Recreation - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___restaurant_bar___gross_",
+            "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___services___gross_floor_",
+            "alias": "Other - Services - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___specialty_hospital___gr",
+            "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___stadium___gross_floor_a",
+            "alias": "Other - Stadium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___technology_science___gr",
+            "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "outpatient_rehabilitation_physi",
+            "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "parking___gross_floor_area__ft2",
+            "alias": "Parking - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "performing_arts___gross_floor_a",
+            "alias": "Performing Arts - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "personal_services__health_beaut",
+            "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "pre_school_daycare___gross_floo",
+            "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "refrigerated_warehouse___gross_",
+            "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "repair_services__vehicle__shoe_",
+            "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residence_hall_dormitory___gros",
+            "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residential_care_facility___gro",
+            "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "restaurant___gross_floor_area__",
+            "alias": "Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "retail_store___gross_floor_area",
+            "alias": "Retail Store - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "roller_rink___gross_floor_area_",
+            "alias": "Roller Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "self_storage_facility___gross_f",
+            "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "senior_care_community___gross_f",
+            "alias": "Senior Care Community - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "social_meeting_hall___gross_flo",
+            "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__closed____gross_floor_",
+            "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__open____gross_floor_ar",
+            "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "strip_mall___gross_floor_area__",
+            "alias": "Strip Mall - Gross Floor Area (ft²)",
+            "show": false
+          },
+          {
+            "name": "supermarket_grocery___gross_flo",
+            "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "transportation_terminal_station",
+            "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "urgent_care_clinic_other_outpat",
+            "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "veterinary_office___gross_floor",
+            "alias": "Veterinary Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "vocational_school___gross_floor",
+            "alias": "Vocational School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wastewater_treatment_plant___gr",
+            "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wholesale_club_supercenter__gro",
+            "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "worship_facility___gross_floor_",
+            "alias": "Worship Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "zoo___gross_floor_area__ft2_",
+            "alias": "Zoo - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "electricity_use___grid_purchase",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_electri",
+            "alias": "Weather Normalized Site Electricity (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_elect_1",
+            "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "electricity_use___grid_purcha_1",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "natural_gas_use__therms_",
+            "alias": "Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natural",
+            "alias": "Weather Normalized Site Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natur_1",
+            "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+            "show": false
+          },
+          {
+            "name": "natural_gas_use__kbtu_",
+            "alias": "Natural Gas Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "diesel__2_use__kbtu_",
+            "alias": "Diesel #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "propane_use__kbtu_",
+            "alias": "Propane Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_steam_use__kbtu_",
+            "alias": "District Steam Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_chilled_water_use__kbt",
+            "alias": "District Chilled Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_fro",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_f_1",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__1_use__kbtu_",
+            "alias": "Fuel Oil #1 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__2_use__kbtu_",
+            "alias": "Fuel Oil #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__4_use__kbtu_",
+            "alias": "Fuel Oil #4 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__5___6_use__kbtu_",
+            "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "kerosene_use__kbtu_",
+            "alias": "Kerosene Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_hot_water_use__kbtu_",
+            "alias": "District Hot Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "coke_use__kbtu_",
+            "alias": "Coke Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "wood_use__kbtu_",
+            "alias": "Wood Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "other_use__kbtu_",
+            "alias": "Other Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_site_eui__kbtu",
+            "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_source_eui__kb",
+            "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wastew",
+            "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_1",
+            "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_2",
+            "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_3",
+            "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+            "show": false
+          },
+          {
+            "name": "site_energy_use__kbtu_",
+            "alias": "Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_energy_",
+            "alias": "Weather Normalized Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_energy_use__kbtu_",
+            "alias": "Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_energ",
+            "alias": "Weather Normalized Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_eui__kb",
+            "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_eui__kbtu_ft2_",
+            "alias": "Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_eui__",
+            "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "water_use__all_water_sources___",
+            "alias": "Water Use (All Water Sources) (kgal)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "indoor_water_use__all_water_sou",
+            "alias": "Indoor Water Use (All Water Sources) (kgal)",
+            "show": false
+          },
+          {
+            "name": "energy_star_score",
+            "alias": "ENERGY STAR Score",
+            "show": false
+          },
+          {
+            "name": "total_ghg_emissions__metric_ton",
+            "alias": "Total GHG Emissions (Metric Tons CO2e)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "year_built",
+            "alias": "Year Built",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "total_ghg_emissions_intensity__",
+            "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "occupancy",
+            "alias": "Occupancy",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "site_eui__kbtu_ft2_",
+            "alias": "Site EUI (kBtu/ft2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "Property Type",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Water Usage",
+      "id": "energy_use_sample_4615_2360_6531_6296",
+      "layer": {
+        "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "ontario_ewrb_id",
+            "alias": "Ontario EWRB ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "property_id",
+            "alias": "Property Id",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "parent_property_id",
+            "alias": "Parent Property Id",
+            "show": false
+          },
+          {
+            "name": "parent_property_name",
+            "alias": "Parent Property Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___name",
+            "alias": "Custom Property ID 1 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_2___name",
+            "alias": "Custom Property ID 2 - Name",
+            "show": false
+          },
+          {
+            "name": "year_ending",
+            "alias": "Year Ending",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "generation_date",
+            "alias": "Generation Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "release_date",
+            "alias": "Release Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "property_name",
+            "alias": "Property Name",
+            "show": true
+          },
+          {
+            "name": "xx",
+            "alias": "XX",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "yy",
+            "alias": "YY",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "address_1",
+            "alias": "Address 1",
+            "show": false
+          },
+          {
+            "name": "address_2",
+            "alias": "Address 2",
+            "show": false
+          },
+          {
+            "name": "city",
+            "alias": "City",
+            "show": false
+          },
+          {
+            "name": "state_province",
+            "alias": "State/Province",
+            "show": false
+          },
+          {
+            "name": "postal_code",
+            "alias": "Postal Code",
+            "show": false
+          },
+          {
+            "name": "primary_property_type___self_se",
+            "alias": "Primary Property Type - Self Selected",
+            "show": false
+          },
+          {
+            "name": "number_of_buildings",
+            "alias": "Number of Buildings",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "third_party_certification",
+            "alias": "Third Party Certification",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator",
+            "alias": "Property Data Administrator",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator___e",
+            "alias": "Property Data Administrator - Email",
+            "show": false
+          },
+          {
+            "name": "on_behalf_of",
+            "alias": "On Behalf Of",
+            "show": false
+          },
+          {
+            "name": "organization",
+            "alias": "Organization",
+            "show": false
+          },
+          {
+            "name": "phone",
+            "alias": "Phone",
+            "show": false
+          },
+          {
+            "name": "email",
+            "alias": "Email",
+            "show": false
+          },
+          {
+            "name": "gfa_sum",
+            "alias": "GFA Sum",
+            "show": false
+          },
+          {
+            "name": "property_gfa___self_reported__f",
+            "alias": "Property GFA - Self-Reported (ft2)",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___id",
+            "alias": "Custom Property ID 1 - ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "mpac_type",
+            "alias": "MPAC Type",
+            "show": false
+          },
+          {
+            "name": "mpac_code",
+            "alias": "MPAC Code",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_2___id",
+            "alias": "Custom Property ID 2 - ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_3___name",
+            "alias": "Custom Property ID 3 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_3___id",
+            "alias": "Custom Property ID 3 - ID",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker_run_",
+            "alias": "Data Quality Checker Run?",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker___date_run",
+            "alias": "Data Quality Checker - Date Run",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "property_notes",
+            "alias": "Property Notes",
+            "show": false
+          },
+          {
+            "name": "adult_education___gross_floor_a",
+            "alias": "Adult Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ambulatory_surgical_center___gr",
+            "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "aquarium___gross_floor_area__ft",
+            "alias": "Aquarium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "automobile_dealership___gross_f",
+            "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bank_branch___gross_floor_area_",
+            "alias": "Bank Branch - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bar_nightclub___gross_floor_are",
+            "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "barracks__gross_floor_area__ft2",
+            "alias": "Barracks- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bowling_alley___gross_floor_are",
+            "alias": "Bowling Alley - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "casino___gross_floor_area__ft2_",
+            "alias": "Casino - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "college_university___gross_floo",
+            "alias": "College/University - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_with_gas_stat",
+            "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_without_gas_s",
+            "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convention_center___gross_floor",
+            "alias": "Convention Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "distribution_center___gross_flo",
+            "alias": "Distribution Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "drinking_water_treatment___dist",
+            "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "enclosed_mall___gross_floor_are",
+            "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fast_food_restaurant___gross_fl",
+            "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "financial_office___gross_floor_",
+            "alias": "Financial Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fitness_center_health_club_gym_",
+            "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_sales___gross_floor_area__",
+            "alias": "Food Sales - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_service___gross_floor_area",
+            "alias": "Food Service - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hospital__general_medical___sur",
+            "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hotel___gross_floor_area__ft2_",
+            "alias": "Hotel - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ice_curling_rink___gross_floor_",
+            "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "indoor_arena___gross_floor_area",
+            "alias": "Indoor Arena - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "k_12_school___gross_floor_area_",
+            "alias": "K-12 School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "laboratory___gross_floor_area__",
+            "alias": "Laboratory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "library___gross_floor_area__ft2",
+            "alias": "Library - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "lifestyle_center___gross_floor_",
+            "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "medical_office___gross_floor_ar",
+            "alias": "Medical Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "movie_theater___gross_floor_are",
+            "alias": "Movie Theater - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "multifamily_housing___gross_flo",
+            "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "museum___gross_floor_area__ft2_",
+            "alias": "Museum - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "non_refrigerated_warehouse___gr",
+            "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "office___gross_floor_area__ft2_",
+            "alias": "Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___education___gross_floor",
+            "alias": "Other - Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___entertainment_public_as",
+            "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___gross_floor_area__ft2_",
+            "alias": "Other - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___lodging_residential___g",
+            "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___mall___gross_floor_area",
+            "alias": "Other - Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___recreation___gross_floo",
+            "alias": "Other - Recreation - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___restaurant_bar___gross_",
+            "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___services___gross_floor_",
+            "alias": "Other - Services - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___specialty_hospital___gr",
+            "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___stadium___gross_floor_a",
+            "alias": "Other - Stadium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___technology_science___gr",
+            "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "outpatient_rehabilitation_physi",
+            "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "parking___gross_floor_area__ft2",
+            "alias": "Parking - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "performing_arts___gross_floor_a",
+            "alias": "Performing Arts - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "personal_services__health_beaut",
+            "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "pre_school_daycare___gross_floo",
+            "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "refrigerated_warehouse___gross_",
+            "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "repair_services__vehicle__shoe_",
+            "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residence_hall_dormitory___gros",
+            "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residential_care_facility___gro",
+            "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "restaurant___gross_floor_area__",
+            "alias": "Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "retail_store___gross_floor_area",
+            "alias": "Retail Store - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "roller_rink___gross_floor_area_",
+            "alias": "Roller Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "self_storage_facility___gross_f",
+            "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "senior_care_community___gross_f",
+            "alias": "Senior Care Community - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "social_meeting_hall___gross_flo",
+            "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__closed____gross_floor_",
+            "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__open____gross_floor_ar",
+            "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "strip_mall___gross_floor_area__",
+            "alias": "Strip Mall - Gross Floor Area (ft²)",
+            "show": false
+          },
+          {
+            "name": "supermarket_grocery___gross_flo",
+            "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "transportation_terminal_station",
+            "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "urgent_care_clinic_other_outpat",
+            "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "veterinary_office___gross_floor",
+            "alias": "Veterinary Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "vocational_school___gross_floor",
+            "alias": "Vocational School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wastewater_treatment_plant___gr",
+            "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wholesale_club_supercenter__gro",
+            "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "worship_facility___gross_floor_",
+            "alias": "Worship Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "zoo___gross_floor_area__ft2_",
+            "alias": "Zoo - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "electricity_use___grid_purchase",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_electri",
+            "alias": "Weather Normalized Site Electricity (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_elect_1",
+            "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "electricity_use___grid_purcha_1",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "natural_gas_use__therms_",
+            "alias": "Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natural",
+            "alias": "Weather Normalized Site Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natur_1",
+            "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+            "show": false
+          },
+          {
+            "name": "natural_gas_use__kbtu_",
+            "alias": "Natural Gas Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "diesel__2_use__kbtu_",
+            "alias": "Diesel #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "propane_use__kbtu_",
+            "alias": "Propane Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_steam_use__kbtu_",
+            "alias": "District Steam Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_chilled_water_use__kbt",
+            "alias": "District Chilled Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_fro",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_f_1",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__1_use__kbtu_",
+            "alias": "Fuel Oil #1 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__2_use__kbtu_",
+            "alias": "Fuel Oil #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__4_use__kbtu_",
+            "alias": "Fuel Oil #4 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__5___6_use__kbtu_",
+            "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "kerosene_use__kbtu_",
+            "alias": "Kerosene Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_hot_water_use__kbtu_",
+            "alias": "District Hot Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "coke_use__kbtu_",
+            "alias": "Coke Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "wood_use__kbtu_",
+            "alias": "Wood Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "other_use__kbtu_",
+            "alias": "Other Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_site_eui__kbtu",
+            "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_source_eui__kb",
+            "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wastew",
+            "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_1",
+            "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_2",
+            "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_3",
+            "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+            "show": false
+          },
+          {
+            "name": "site_energy_use__kbtu_",
+            "alias": "Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_energy_",
+            "alias": "Weather Normalized Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_energy_use__kbtu_",
+            "alias": "Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_energ",
+            "alias": "Weather Normalized Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "site_eui__kbtu_ft2_",
+            "alias": "Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_eui__kb",
+            "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_eui__kbtu_ft2_",
+            "alias": "Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_eui__",
+            "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "indoor_water_use__all_water_sou",
+            "alias": "Indoor Water Use (All Water Sources) (kgal)",
+            "show": false
+          },
+          {
+            "name": "energy_star_score",
+            "alias": "ENERGY STAR Score",
+            "show": false
+          },
+          {
+            "name": "total_ghg_emissions__metric_ton",
+            "alias": "Total GHG Emissions (Metric Tons CO2e)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "year_built",
+            "alias": "Year Built",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "total_ghg_emissions_intensity__",
+            "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "occupancy",
+            "alias": "Occupancy",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "water_use__all_water_sources___",
+            "alias": "Water Use (All Water Sources) (kgal)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "Property Type",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Greenhouse Gas Footprint",
+      "id": "energy_use_sample_4615",
+      "layer": {
+        "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "ontario_ewrb_id",
+            "alias": "Ontario EWRB ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "property_id",
+            "alias": "Property Id",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "parent_property_id",
+            "alias": "Parent Property Id",
+            "show": false
+          },
+          {
+            "name": "parent_property_name",
+            "alias": "Parent Property Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___name",
+            "alias": "Custom Property ID 1 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_2___name",
+            "alias": "Custom Property ID 2 - Name",
+            "show": false
+          },
+          {
+            "name": "year_ending",
+            "alias": "Year Ending",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "generation_date",
+            "alias": "Generation Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "release_date",
+            "alias": "Release Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "xx",
+            "alias": "XX",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "yy",
+            "alias": "YY",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "address_1",
+            "alias": "Address 1",
+            "show": false
+          },
+          {
+            "name": "address_2",
+            "alias": "Address 2",
+            "show": false
+          },
+          {
+            "name": "city",
+            "alias": "City",
+            "show": false
+          },
+          {
+            "name": "state_province",
+            "alias": "State/Province",
+            "show": false
+          },
+          {
+            "name": "postal_code",
+            "alias": "Postal Code",
+            "show": false
+          },
+          {
+            "name": "primary_property_type___self_se",
+            "alias": "Primary Property Type - Self Selected",
+            "show": false
+          },
+          {
+            "name": "number_of_buildings",
+            "alias": "Number of Buildings",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "third_party_certification",
+            "alias": "Third Party Certification",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator",
+            "alias": "Property Data Administrator",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator___e",
+            "alias": "Property Data Administrator - Email",
+            "show": false
+          },
+          {
+            "name": "on_behalf_of",
+            "alias": "On Behalf Of",
+            "show": false
+          },
+          {
+            "name": "organization",
+            "alias": "Organization",
+            "show": false
+          },
+          {
+            "name": "phone",
+            "alias": "Phone",
+            "show": false
+          },
+          {
+            "name": "email",
+            "alias": "Email",
+            "show": false
+          },
+          {
+            "name": "gfa_sum",
+            "alias": "GFA Sum",
+            "show": false
+          },
+          {
+            "name": "property_gfa___self_reported__f",
+            "alias": "Property GFA - Self-Reported (ft2)",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___id",
+            "alias": "Custom Property ID 1 - ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "mpac_type",
+            "alias": "MPAC Type",
+            "show": false
+          },
+          {
+            "name": "mpac_code",
+            "alias": "MPAC Code",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_2___id",
+            "alias": "Custom Property ID 2 - ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_3___name",
+            "alias": "Custom Property ID 3 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_3___id",
+            "alias": "Custom Property ID 3 - ID",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker_run_",
+            "alias": "Data Quality Checker Run?",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker___date_run",
+            "alias": "Data Quality Checker - Date Run",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "property_notes",
+            "alias": "Property Notes",
+            "show": false
+          },
+          {
+            "name": "adult_education___gross_floor_a",
+            "alias": "Adult Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ambulatory_surgical_center___gr",
+            "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "aquarium___gross_floor_area__ft",
+            "alias": "Aquarium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "automobile_dealership___gross_f",
+            "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bank_branch___gross_floor_area_",
+            "alias": "Bank Branch - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bar_nightclub___gross_floor_are",
+            "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "barracks__gross_floor_area__ft2",
+            "alias": "Barracks- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bowling_alley___gross_floor_are",
+            "alias": "Bowling Alley - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "casino___gross_floor_area__ft2_",
+            "alias": "Casino - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "college_university___gross_floo",
+            "alias": "College/University - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_with_gas_stat",
+            "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_without_gas_s",
+            "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convention_center___gross_floor",
+            "alias": "Convention Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "distribution_center___gross_flo",
+            "alias": "Distribution Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "drinking_water_treatment___dist",
+            "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "enclosed_mall___gross_floor_are",
+            "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fast_food_restaurant___gross_fl",
+            "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "financial_office___gross_floor_",
+            "alias": "Financial Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fitness_center_health_club_gym_",
+            "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_sales___gross_floor_area__",
+            "alias": "Food Sales - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_service___gross_floor_area",
+            "alias": "Food Service - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hospital__general_medical___sur",
+            "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hotel___gross_floor_area__ft2_",
+            "alias": "Hotel - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ice_curling_rink___gross_floor_",
+            "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "indoor_arena___gross_floor_area",
+            "alias": "Indoor Arena - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "k_12_school___gross_floor_area_",
+            "alias": "K-12 School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "laboratory___gross_floor_area__",
+            "alias": "Laboratory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "library___gross_floor_area__ft2",
+            "alias": "Library - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "lifestyle_center___gross_floor_",
+            "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "medical_office___gross_floor_ar",
+            "alias": "Medical Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "movie_theater___gross_floor_are",
+            "alias": "Movie Theater - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "multifamily_housing___gross_flo",
+            "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "museum___gross_floor_area__ft2_",
+            "alias": "Museum - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "non_refrigerated_warehouse___gr",
+            "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "office___gross_floor_area__ft2_",
+            "alias": "Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___education___gross_floor",
+            "alias": "Other - Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___entertainment_public_as",
+            "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___gross_floor_area__ft2_",
+            "alias": "Other - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___lodging_residential___g",
+            "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___mall___gross_floor_area",
+            "alias": "Other - Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___recreation___gross_floo",
+            "alias": "Other - Recreation - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___restaurant_bar___gross_",
+            "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___services___gross_floor_",
+            "alias": "Other - Services - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___specialty_hospital___gr",
+            "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___stadium___gross_floor_a",
+            "alias": "Other - Stadium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___technology_science___gr",
+            "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "outpatient_rehabilitation_physi",
+            "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "parking___gross_floor_area__ft2",
+            "alias": "Parking - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "performing_arts___gross_floor_a",
+            "alias": "Performing Arts - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "personal_services__health_beaut",
+            "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "pre_school_daycare___gross_floo",
+            "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "refrigerated_warehouse___gross_",
+            "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "repair_services__vehicle__shoe_",
+            "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residence_hall_dormitory___gros",
+            "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residential_care_facility___gro",
+            "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "restaurant___gross_floor_area__",
+            "alias": "Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "retail_store___gross_floor_area",
+            "alias": "Retail Store - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "roller_rink___gross_floor_area_",
+            "alias": "Roller Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "self_storage_facility___gross_f",
+            "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "senior_care_community___gross_f",
+            "alias": "Senior Care Community - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "social_meeting_hall___gross_flo",
+            "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__closed____gross_floor_",
+            "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__open____gross_floor_ar",
+            "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "strip_mall___gross_floor_area__",
+            "alias": "Strip Mall - Gross Floor Area (ft²)",
+            "show": false
+          },
+          {
+            "name": "supermarket_grocery___gross_flo",
+            "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "transportation_terminal_station",
+            "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "urgent_care_clinic_other_outpat",
+            "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "veterinary_office___gross_floor",
+            "alias": "Veterinary Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "vocational_school___gross_floor",
+            "alias": "Vocational School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wastewater_treatment_plant___gr",
+            "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wholesale_club_supercenter__gro",
+            "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "worship_facility___gross_floor_",
+            "alias": "Worship Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "zoo___gross_floor_area__ft2_",
+            "alias": "Zoo - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "electricity_use___grid_purchase",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_electri",
+            "alias": "Weather Normalized Site Electricity (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_elect_1",
+            "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "electricity_use___grid_purcha_1",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "natural_gas_use__therms_",
+            "alias": "Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natural",
+            "alias": "Weather Normalized Site Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natur_1",
+            "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+            "show": false
+          },
+          {
+            "name": "natural_gas_use__kbtu_",
+            "alias": "Natural Gas Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "diesel__2_use__kbtu_",
+            "alias": "Diesel #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "propane_use__kbtu_",
+            "alias": "Propane Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_steam_use__kbtu_",
+            "alias": "District Steam Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_chilled_water_use__kbt",
+            "alias": "District Chilled Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_fro",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_f_1",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__1_use__kbtu_",
+            "alias": "Fuel Oil #1 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__2_use__kbtu_",
+            "alias": "Fuel Oil #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__4_use__kbtu_",
+            "alias": "Fuel Oil #4 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__5___6_use__kbtu_",
+            "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "kerosene_use__kbtu_",
+            "alias": "Kerosene Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_hot_water_use__kbtu_",
+            "alias": "District Hot Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "coke_use__kbtu_",
+            "alias": "Coke Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "wood_use__kbtu_",
+            "alias": "Wood Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "other_use__kbtu_",
+            "alias": "Other Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_site_eui__kbtu",
+            "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_source_eui__kb",
+            "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wastew",
+            "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_1",
+            "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_2",
+            "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_3",
+            "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+            "show": false
+          },
+          {
+            "name": "site_energy_use__kbtu_",
+            "alias": "Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_energy_",
+            "alias": "Weather Normalized Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_energy_use__kbtu_",
+            "alias": "Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_energ",
+            "alias": "Weather Normalized Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "site_eui__kbtu_ft2_",
+            "alias": "Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_eui__kb",
+            "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_eui__kbtu_ft2_",
+            "alias": "Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_eui__",
+            "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "water_use__all_water_sources___",
+            "alias": "Water Use (All Water Sources) (kgal)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "property_name",
+            "alias": "Property Name",
+            "show": true
+          },
+          {
+            "name": "indoor_water_use__all_water_sou",
+            "alias": "Indoor Water Use (All Water Sources) (kgal)",
+            "show": false
+          },
+          {
+            "name": "energy_star_score",
+            "alias": "ENERGY STAR Score",
+            "show": false
+          },
+          {
+            "name": "total_ghg_emissions__metric_ton",
+            "alias": "Total GHG Emissions (Metric Tons CO2e)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "year_built",
+            "alias": "Year Built",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "occupancy",
+            "alias": "Occupancy",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "total_ghg_emissions_intensity__",
+            "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "Property Type",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    },
+    {
+      "name": "Energy Usage",
+      "id": "energy_use_sample_4615_2360",
+      "layer": {
+        "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "ontario_ewrb_id",
+            "alias": "Ontario EWRB ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "property_id",
+            "alias": "Property Id",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "parent_property_id",
+            "alias": "Parent Property Id",
+            "show": false
+          },
+          {
+            "name": "parent_property_name",
+            "alias": "Parent Property Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___name",
+            "alias": "Custom Property ID 1 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_2___name",
+            "alias": "Custom Property ID 2 - Name",
+            "show": false
+          },
+          {
+            "name": "year_ending",
+            "alias": "Year Ending",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "generation_date",
+            "alias": "Generation Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "release_date",
+            "alias": "Release Date",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "xx",
+            "alias": "XX",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "yy",
+            "alias": "YY",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "address_1",
+            "alias": "Address 1",
+            "show": false
+          },
+          {
+            "name": "address_2",
+            "alias": "Address 2",
+            "show": false
+          },
+          {
+            "name": "city",
+            "alias": "City",
+            "show": false
+          },
+          {
+            "name": "state_province",
+            "alias": "State/Province",
+            "show": false
+          },
+          {
+            "name": "postal_code",
+            "alias": "Postal Code",
+            "show": false
+          },
+          {
+            "name": "property_name",
+            "alias": "Property Name",
+            "show": true
+          },
+          {
+            "name": "third_party_certification",
+            "alias": "Third Party Certification",
+            "show": false
+          },
+          {
+            "name": "primary_property_type___self_se",
+            "alias": "Primary Property Type - Self Selected",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator",
+            "alias": "Property Data Administrator",
+            "show": false
+          },
+          {
+            "name": "property_data_administrator___e",
+            "alias": "Property Data Administrator - Email",
+            "show": false
+          },
+          {
+            "name": "on_behalf_of",
+            "alias": "On Behalf Of",
+            "show": false
+          },
+          {
+            "name": "organization",
+            "alias": "Organization",
+            "show": false
+          },
+          {
+            "name": "phone",
+            "alias": "Phone",
+            "show": false
+          },
+          {
+            "name": "email",
+            "alias": "Email",
+            "show": false
+          },
+          {
+            "name": "gfa_sum",
+            "alias": "GFA Sum",
+            "show": false
+          },
+          {
+            "name": "property_gfa___self_reported__f",
+            "alias": "Property GFA - Self-Reported (ft2)",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_1___id",
+            "alias": "Custom Property ID 1 - ID",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "mpac_type",
+            "alias": "MPAC Type",
+            "show": false
+          },
+          {
+            "name": "mpac_code",
+            "alias": "MPAC Code",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_2___id",
+            "alias": "Custom Property ID 2 - ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "custom_property_id_3___name",
+            "alias": "Custom Property ID 3 - Name",
+            "show": false
+          },
+          {
+            "name": "custom_property_id_3___id",
+            "alias": "Custom Property ID 3 - ID",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker_run_",
+            "alias": "Data Quality Checker Run?",
+            "show": false
+          },
+          {
+            "name": "data_quality_checker___date_run",
+            "alias": "Data Quality Checker - Date Run",
+            "show": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            }
+          },
+          {
+            "name": "property_notes",
+            "alias": "Property Notes",
+            "show": false
+          },
+          {
+            "name": "adult_education___gross_floor_a",
+            "alias": "Adult Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ambulatory_surgical_center___gr",
+            "alias": "Ambulatory Surgical Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "aquarium___gross_floor_area__ft",
+            "alias": "Aquarium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "automobile_dealership___gross_f",
+            "alias": "Automobile Dealership - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bank_branch___gross_floor_area_",
+            "alias": "Bank Branch - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bar_nightclub___gross_floor_are",
+            "alias": "Bar/Nightclub - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "barracks__gross_floor_area__ft2",
+            "alias": "Barracks- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "bowling_alley___gross_floor_are",
+            "alias": "Bowling Alley - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "casino___gross_floor_area__ft2_",
+            "alias": "Casino - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "college_university___gross_floo",
+            "alias": "College/University - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_with_gas_stat",
+            "alias": "Convenience Store with Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convenience_store_without_gas_s",
+            "alias": "Convenience Store without Gas Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "convention_center___gross_floor",
+            "alias": "Convention Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "distribution_center___gross_flo",
+            "alias": "Distribution Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "drinking_water_treatment___dist",
+            "alias": "Drinking Water Treatment & Distribution - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "enclosed_mall___gross_floor_are",
+            "alias": "Enclosed Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fast_food_restaurant___gross_fl",
+            "alias": "Fast Food Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "financial_office___gross_floor_",
+            "alias": "Financial Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "fitness_center_health_club_gym_",
+            "alias": "Fitness Center/Health Club/Gym - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_sales___gross_floor_area__",
+            "alias": "Food Sales - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "food_service___gross_floor_area",
+            "alias": "Food Service - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hospital__general_medical___sur",
+            "alias": "Hospital (General Medical & Surgical) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "hotel___gross_floor_area__ft2_",
+            "alias": "Hotel - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "ice_curling_rink___gross_floor_",
+            "alias": "Ice/Curling Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "indoor_arena___gross_floor_area",
+            "alias": "Indoor Arena - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "k_12_school___gross_floor_area_",
+            "alias": "K-12 School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "laboratory___gross_floor_area__",
+            "alias": "Laboratory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "library___gross_floor_area__ft2",
+            "alias": "Library - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "lifestyle_center___gross_floor_",
+            "alias": "Lifestyle Center - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "medical_office___gross_floor_ar",
+            "alias": "Medical Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "movie_theater___gross_floor_are",
+            "alias": "Movie Theater - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "multifamily_housing___gross_flo",
+            "alias": "Multifamily Housing - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "museum___gross_floor_area__ft2_",
+            "alias": "Museum - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "non_refrigerated_warehouse___gr",
+            "alias": "Non-Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "office___gross_floor_area__ft2_",
+            "alias": "Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___education___gross_floor",
+            "alias": "Other - Education - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___entertainment_public_as",
+            "alias": "Other - Entertainment/Public Assembly - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___gross_floor_area__ft2_",
+            "alias": "Other - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___lodging_residential___g",
+            "alias": "Other - Lodging/Residential - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___mall___gross_floor_area",
+            "alias": "Other - Mall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___recreation___gross_floo",
+            "alias": "Other - Recreation - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___restaurant_bar___gross_",
+            "alias": "Other - Restaurant/Bar - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___services___gross_floor_",
+            "alias": "Other - Services - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___specialty_hospital___gr",
+            "alias": "Other - Specialty Hospital - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___stadium___gross_floor_a",
+            "alias": "Other - Stadium - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "other___technology_science___gr",
+            "alias": "Other - Technology/Science - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "outpatient_rehabilitation_physi",
+            "alias": "Outpatient Rehabilitation/Physical Therapy - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "parking___gross_floor_area__ft2",
+            "alias": "Parking - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "performing_arts___gross_floor_a",
+            "alias": "Performing Arts - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "personal_services__health_beaut",
+            "alias": "Personal Services (Health/Beauty, Dry Cleaning, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "pre_school_daycare___gross_floo",
+            "alias": "Pre-school/Daycare - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "refrigerated_warehouse___gross_",
+            "alias": "Refrigerated Warehouse - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "repair_services__vehicle__shoe_",
+            "alias": "Repair Services (Vehicle, Shoe, Locksmith, etc.) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residence_hall_dormitory___gros",
+            "alias": "Residence Hall/Dormitory - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "residential_care_facility___gro",
+            "alias": "Residential Care Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "restaurant___gross_floor_area__",
+            "alias": "Restaurant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "retail_store___gross_floor_area",
+            "alias": "Retail Store - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "roller_rink___gross_floor_area_",
+            "alias": "Roller Rink - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "self_storage_facility___gross_f",
+            "alias": "Self-Storage Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "senior_care_community___gross_f",
+            "alias": "Senior Care Community - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "social_meeting_hall___gross_flo",
+            "alias": "Social/Meeting Hall - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__closed____gross_floor_",
+            "alias": "Stadium (Closed) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "stadium__open____gross_floor_ar",
+            "alias": "Stadium (Open) - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "strip_mall___gross_floor_area__",
+            "alias": "Strip Mall - Gross Floor Area (ft²)",
+            "show": false
+          },
+          {
+            "name": "supermarket_grocery___gross_flo",
+            "alias": "Supermarket/Grocery - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "transportation_terminal_station",
+            "alias": "Transportation Terminal/Station - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "urgent_care_clinic_other_outpat",
+            "alias": "Urgent Care/Clinic/Other Outpatient - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "veterinary_office___gross_floor",
+            "alias": "Veterinary Office - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "vocational_school___gross_floor",
+            "alias": "Vocational School - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wastewater_treatment_plant___gr",
+            "alias": "Wastewater Treatment Plant - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "wholesale_club_supercenter__gro",
+            "alias": "Wholesale Club/Supercenter- Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "worship_facility___gross_floor_",
+            "alias": "Worship Facility - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "zoo___gross_floor_area__ft2_",
+            "alias": "Zoo - Gross Floor Area (ft2)",
+            "show": false
+          },
+          {
+            "name": "electricity_use___grid_purchase",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_electri",
+            "alias": "Weather Normalized Site Electricity (kWh)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_site_elect_1",
+            "alias": "Weather Normalized Site Electricity Intensity (kWh/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "electricity_use___grid_purcha_1",
+            "alias": "Electricity Use - Grid Purchase and Generated from Onsite Renewable Systems (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "natural_gas_use__therms_",
+            "alias": "Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natural",
+            "alias": "Weather Normalized Site Natural Gas Use (therms)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_natur_1",
+            "alias": "Weather Normalized Site Natural Gas Intensity (therms/ft²)",
+            "show": false
+          },
+          {
+            "name": "natural_gas_use__kbtu_",
+            "alias": "Natural Gas Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "diesel__2_use__kbtu_",
+            "alias": "Diesel #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "propane_use__kbtu_",
+            "alias": "Propane Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_steam_use__kbtu_",
+            "alias": "District Steam Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_chilled_water_use__kbt",
+            "alias": "District Chilled Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_fro",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kWh)",
+            "show": false
+          },
+          {
+            "name": "electricity_use_–_generated_f_1",
+            "alias": "Electricity Use – Generated from Onsite Renewable Systems and Used Onsite (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__1_use__kbtu_",
+            "alias": "Fuel Oil #1 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__2_use__kbtu_",
+            "alias": "Fuel Oil #2 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__4_use__kbtu_",
+            "alias": "Fuel Oil #4 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "fuel_oil__5___6_use__kbtu_",
+            "alias": "Fuel Oil #5 & 6 Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "kerosene_use__kbtu_",
+            "alias": "Kerosene Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "district_hot_water_use__kbtu_",
+            "alias": "District Hot Water Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "coke_use__kbtu_",
+            "alias": "Coke Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "wood_use__kbtu_",
+            "alias": "Wood Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "other_use__kbtu_",
+            "alias": "Other Use (kBtu)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_site_eui__kbtu",
+            "alias": "Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "water_wastewater_source_eui__kb",
+            "alias": "Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wastew",
+            "alias": "Weather Normalized Water/Wastewater Site EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_1",
+            "alias": "Weather Normalized Water/Wastewater Source EUI (kBtu/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_2",
+            "alias": "Weather Normalized Water/Wastewater Site Electricity Intensity (kWh/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_water_wast_3",
+            "alias": "Weather Normalized Water/Wastewater Site Natural Gas Intensity (therms/gpd)",
+            "show": false
+          },
+          {
+            "name": "weather_normalized_site_energy_",
+            "alias": "Weather Normalized Site Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_energy_use__kbtu_",
+            "alias": "Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_energ",
+            "alias": "Weather Normalized Source Energy Use (kBtu)",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "year_built",
+            "alias": "Year Built",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "weather_normalized_site_eui__kb",
+            "alias": "Weather Normalized Site EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "number_of_buildings",
+            "alias": "Number of Buildings",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "source_eui__kbtu_ft2_",
+            "alias": "Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "occupancy",
+            "alias": "Occupancy",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "weather_normalized_source_eui__",
+            "alias": "Weather Normalized Source EUI (kBtu/ft2)",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "site_energy_use__kbtu_",
+            "alias": "Site Energy Use (kBtu)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "site_eui__kbtu_ft2_",
+            "alias": "Site EUI (kBtu/ft2)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "water_use__all_water_sources___",
+            "alias": "Water Use (All Water Sources) (kgal)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "energy_star_score",
+            "alias": "ENERGY STAR Score",
+            "show": false
+          },
+          {
+            "name": "indoor_water_use__all_water_sou",
+            "alias": "Indoor Water Use (All Water Sources) (kgal)",
+            "show": true
+          },
+          {
+            "name": "total_ghg_emissions__metric_ton",
+            "alias": "Total GHG Emissions (Metric Tons CO2e)",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "total_ghg_emissions_intensity__",
+            "alias": "Total GHG Emissions Intensity (kgCO2e/ft²)",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "expression/expr0",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "expression/expr1",
+            "alias": "Property Type",
+            "show": true
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "objectid",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": false,
+  "allowTextSelection": true,
+  "syncWithLayers": true
+}

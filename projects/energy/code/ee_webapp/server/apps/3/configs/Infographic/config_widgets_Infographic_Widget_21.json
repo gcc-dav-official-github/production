@@ -1,0 +1,206 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "5268676222224291-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "5268676222224291-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "5268676222224291-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "5268676222224291-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "5268676222224291-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "5268676222224291-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "5268676222224291-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Site Energy Use Intensity by Year Built"
+      }
+    },
+    {
+      "id": "5268676222224291-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "column",
+        "labelField": "year_built",
+        "valueFields": [
+          "site_eui__kbtu_ft2_"
+        ],
+        "sortOrder": {
+          "isAsc": true,
+          "field": "year_built",
+          "isLabelAxis": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#2e8b57"
+                ]
+              },
+              "name": "site_eui__kbtu_ft2_",
+              "label": "Site EUI (kBtu/ft2)"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          },
+          "name": "Year Built"
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          },
+          "name": "Site Energy Use Intensity (kBtu/ft2)"
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "5268676222224291-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/environment-energy/"
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Sample data from Environment & Energy, 2018."
+      }
+    }
+  ],
+  "name": "column",
+  "wid": "5268676222224291",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Energy Use Intensity",
+    "layerId": "energy_use_sample_4615_2360_6531",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

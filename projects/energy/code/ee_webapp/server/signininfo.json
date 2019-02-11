@@ -1,0 +1,7 @@
+[
+  {
+    "portalUrl": "https://insideto-geoportal.toronto.ca/portal",
+    "supportsOAuth": true,
+    "isWebTier": true
+  }
+]

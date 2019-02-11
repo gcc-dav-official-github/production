@@ -1,0 +1,209 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "13986028856627808-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "13986028856627808-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "13986028856627808-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "13986028856627808-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "13986028856627808-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "13986028856627808-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "13986028856627808-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Source Energy Use Intensity and Weather Normalized Source Energy Use Intensity"
+      }
+    },
+    {
+      "id": "13986028856627808-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "bar",
+        "labelField": "objectid",
+        "valueFields": [
+          "source_eui__kbtu_ft2_",
+          "weather_normalized_source_eui__"
+        ],
+        "sortOrder": {
+          "isAsc": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#ffffff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "source_eui__kbtu_ft2_",
+              "style": {
+                "color": "#087E92"
+              },
+              "label": "Source EUI (kBtu/ft2)"
+            },
+            {
+              "name": "weather_normalized_source_eui__",
+              "style": {
+                "color": "#FBE66A"
+              },
+              "label": "Weather Normalized Source EUI (kBtu/ft2)"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          },
+          "name": "EUI (kBtu/ft2)"
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "13986028856627808-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/environment-energy/"
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Sample data from Environment & Energy, 2018"
+      }
+    }
+  ],
+  "name": "bar",
+  "wid": "13986028856627808",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Energy Usage",
+    "layerId": "energy_use_sample_4615_2360",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

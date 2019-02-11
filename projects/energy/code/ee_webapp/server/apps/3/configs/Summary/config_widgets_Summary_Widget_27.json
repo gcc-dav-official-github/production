@@ -1,0 +1,43 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "COUNT",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "site_energy_use__kbtu_"
+      },
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "electricity_use___grid_purchase"
+      },
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "water_use__all_water_sources___"
+      },
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "total_ghg_emissions__metric_ton"
+      },
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "occupancy"
+      },
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "number_of_buildings"
+      }
+    ],
+    "id": "energy_use_sample_4615_2360",
+    "name": "Energy Usage",
+    "filterField": "primary_property_type___self_se",
+    "url": "energy_use_sample_4615_2360"
+  }
+}

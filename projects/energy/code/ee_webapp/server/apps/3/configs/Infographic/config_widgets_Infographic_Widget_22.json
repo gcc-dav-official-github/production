@@ -1,0 +1,205 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47893984148007185-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "47893984148007185-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47893984148007185-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "47893984148007185-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47893984148007185-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "47893984148007185-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "47893984148007185-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Water Use by Property Type"
+      }
+    },
+    {
+      "id": "47893984148007185-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "category",
+        "type": "column",
+        "categoryField": "primary_property_type___self_se",
+        "dateConfig": null,
+        "valueFields": [
+          "water_use__all_water_sources___"
+        ],
+        "operation": "sum",
+        "nullValue": true,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "water_use__all_water_sources___",
+              "style": {
+                "color": "#68D2E0"
+              },
+              "label": "Water Use (All Water Sources) (kgal)"
+            }
+          ],
+          "type": "layerSymbol"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          }
+        },
+        "stack": "normal",
+        "marks": {}
+      }
+    },
+    {
+      "id": "47893984148007185-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/environment-energy/"
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Sample data from Environment & Energy, 2018."
+      }
+    }
+  ],
+  "name": "stacked_column",
+  "wid": "47893984148007185",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Energy Usage",
+    "layerId": "energy_use_sample_4615_2360",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

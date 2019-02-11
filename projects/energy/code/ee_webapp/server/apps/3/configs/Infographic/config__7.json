@@ -1,0 +1,204 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "958936124777213-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "958936124777213-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "958936124777213-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "958936124777213-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "958936124777213-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "958936124777213-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "958936124777213-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Greenhouse Gas Emissions by Occupancy"
+      }
+    },
+    {
+      "id": "958936124777213-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "line",
+        "labelField": "occupancy",
+        "valueFields": [
+          "total_ghg_emissions__metric_ton"
+        ],
+        "sortOrder": {
+          "isAsc": true,
+          "field": "occupancy",
+          "isLabelAxis": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#fff",
+        "seriesStyle": {
+          "styles": [
+            {
+              "name": "total_ghg_emissions__metric_ton",
+              "style": {
+                "color": "#087E92"
+              },
+              "label": "Total GHG Emissions (Metric Tons CO2e)"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          },
+          "name": "Occupancy"
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#000"
+          },
+          "name": "Total GHG Emissions (Metric Tons CO2e)"
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "958936124777213-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": "https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/environment-energy/"
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Sample data from Environment & Energy, 2018"
+      }
+    }
+  ],
+  "name": "line",
+  "wid": "958936124777213",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Greenhouse Gas Footprint",
+    "layerId": "energy_use_sample_4615",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

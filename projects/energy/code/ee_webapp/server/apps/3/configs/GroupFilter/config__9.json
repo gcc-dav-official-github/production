@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "Property Type",
+      "desc": "Select Property Type",
+      "operator": "",
+      "defaultVal": "",
+      "appendSameLayer": true,
+      "appendSameLayerConjunc": "OR",
+      "caseSearch": false,
+      "layers": [
+        {
+          "layer": "energy_use_sample_4615_2360",
+          "field": "primary_property_type___self_se",
+          "dataType": "esriFieldTypeString",
+          "useDomain": true
+        }
+      ]
+    },
+    {
+      "name": "Year Built",
+      "desc": "Select Year Built",
+      "operator": "",
+      "defaultVal": "",
+      "appendSameLayer": true,
+      "appendSameLayerConjunc": "OR",
+      "caseSearch": false,
+      "layers": [
+        {
+          "layer": "energy_use_sample_4615_2360",
+          "field": "year_built",
+          "dataType": "esriFieldTypeInteger",
+          "useDomain": true
+        }
+      ]
+    }
+  ],
+  "persistOnClose": false,
+  "simpleMode": true,
+  "webmapAppendMode": true,
+  "slAppendChoice": "OR",
+  "zoomMode": false
+}

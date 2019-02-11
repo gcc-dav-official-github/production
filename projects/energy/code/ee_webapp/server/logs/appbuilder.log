@@ -1,0 +1,436 @@
+[2019-01-11T15:00:05.064] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-01-11T15:00:17.722] [INFO] app - Find 6 predfinded apps.
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.About
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.AddData
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Analysis
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.AttributeTable
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.BasemapGallery
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.BatchAttributeEditor
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Bookmark
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Chart
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Coordinate
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.CoordinateConversion
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.CostAnalysis
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.DataAggregation
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Directions
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.DistanceAndDirection
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.DistrictLookup
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Draw
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.Edit
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.EmergencyResponseGuide
+[2019-01-11T15:00:17.737] [INFO] repo - insert HTML.ExtentNavigate
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Filter
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.FullScreen
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.GeoLookup
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Geoprocessing
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.GriddedReferenceGraphic
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.GridOverlay
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.GroupFilter
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.HomeButton
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.ImageMeasurement
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.IncidentAnalysis
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Infographic
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.InfoSummary
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.LayerList
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Legend
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Measurement
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.MyLocation
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.NearMe
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.ObliqueViewer
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.OverviewMap
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.ParcelDrafter
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.Print
+[2019-01-11T15:00:17.753] [INFO] repo - insert HTML.PublicNotification
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Query
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.RelatedTableCharts
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.ReportFeature
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.ReviewerDashboard
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Scalebar
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Screening
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Search
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Select
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Share
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.SituationAwareness
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.SmartEditor
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Splash
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Stream
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.SuitabilityModeler
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Summary
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.Swipe
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.TimeSlider
+[2019-01-11T15:00:17.769] [INFO] repo - insert HTML.ZoomSlider
+[2019-01-11T15:00:17.784] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.DartTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.PlateauTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.TabTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.BillboardTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.BoxTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.JewelryBoxTheme
+[2019-01-11T15:00:20.253] [INFO] repo - insert HTML.PocketTheme
+[2019-01-11T15:00:20.269] [INFO] repo - insert HTML.DashboardTheme
+[2019-01-11T15:00:20.269] [INFO] repo - insert HTML.FoldableTheme
+[2019-01-11T15:00:20.269] [INFO] repo - insert HTML.LaunchpadTheme
+[2019-01-11T15:00:20.269] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Coordinate
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Search
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Slides
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Splash
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Daylight
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Navigate
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.3DFx
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Home
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.ZoomSlider
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.About
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Share
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.MyLocation
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Compass
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.LayerList
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Legend
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.BasemapGallery
+[2019-01-11T15:00:24.019] [INFO] repo - insert HTML3D.Measurement3D
+[2019-01-11T15:00:24.035] [INFO] repo - insert HTML3D.FullScreen
+[2019-01-11T15:00:24.035] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-01-11T15:00:25.707] [INFO] repo - insert HTML3D.JewelryBoxTheme
+[2019-01-11T15:00:25.707] [INFO] repo - insert HTML3D.FoldableTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.DartTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.LaunchpadTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.BillboardTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.DashboardTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.TabTheme
+[2019-01-11T15:00:25.723] [INFO] repo - insert HTML3D.BoxTheme
+[2019-01-11T15:43:00.283] [INFO] default - No portal URL is set, redirect /webappbuilder to /webappbuilder?action=setportalurl
+[2019-01-11T15:48:07.890] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-01-14T13:28:57.749] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-01-14T13:29:01.594] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-01-14T13:29:01.619] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-01-14T13:29:02.115] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-01-14T13:29:02.122] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-01-14T13:29:02.131] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-01-14T13:29:02.138] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-01-14T13:29:02.145] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-01-14T13:29:02.148] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-01-14T13:29:02.167] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-01-14T13:29:02.171] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-01-14T13:29:02.177] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-01-14T13:29:02.201] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-01-14T13:29:02.206] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-01-14T13:29:02.210] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-01-14T13:29:02.226] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DashboardTheme
+[2019-01-14T13:29:03.878] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:05.364] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:06.086] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:06.807] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:07.534] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:08.255] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:08.970] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-14T13:29:09.683] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-01-14T13:29:09.977] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-01-14T13:29:10.262] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-01-14T13:29:10.582] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-01-14T13:29:11.229] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-01-14T13:29:11.993] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-01-14T13:29:12.609] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-01-14T13:29:13.279] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-01-14T13:29:14.027] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-01-14T13:29:14.652] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-01-14T13:29:15.471] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-14T13:29:15.780] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-14T13:29:16.531] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-01-14T13:29:17.288] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-01-14T13:29:17.930] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-14T13:32:57.338] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=2 to /webappbuilder/apps/2
+[2019-01-14T13:35:26.427] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-01-14T13:35:27.431] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-01-14T13:35:27.443] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-01-14T13:35:27.520] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-01-14T13:35:27.525] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-01-14T13:35:27.527] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-01-14T13:35:27.528] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-01-14T13:35:27.531] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-01-14T13:35:27.532] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-01-14T13:35:27.542] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-01-14T13:35:27.544] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-01-14T13:35:27.545] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-01-14T13:35:27.563] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-01-14T13:35:27.565] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-01-14T13:35:27.567] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-01-14T13:35:27.577] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-01-14T13:35:28.839] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-01-14T13:35:29.249] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-01-14T13:35:29.659] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-01-14T13:35:30.079] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-01-14T13:35:30.484] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-01-14T13:35:30.679] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-01-14T13:35:31.129] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-01-14T13:35:31.611] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-01-14T13:35:32.053] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-01-14T13:35:32.257] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-01-14T13:35:32.456] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-14T13:35:32.663] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-01-14T13:35:33.071] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-14T13:39:44.389] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\BillboardTheme
+[2019-01-14T13:39:47.458] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\BoxTheme
+[2019-01-14T13:39:52.087] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DartTheme
+[2019-01-14T13:39:57.753] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DashboardTheme
+[2019-01-14T13:40:07.885] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\JewelryBoxTheme
+[2019-01-14T13:40:15.940] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme
+[2019-01-14T13:46:38.767] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\PlateauTheme
+[2019-01-14T13:48:33.762] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Analysis
+[2019-01-14T13:48:52.689] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery
+[2019-01-14T13:49:28.664] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Chart
+[2019-01-14T14:47:26.497] [INFO] app - remove theme BillboardTheme from app 3
+[2019-01-14T14:47:26.765] [INFO] app - remove theme BoxTheme from app 3
+[2019-01-14T14:47:27.053] [INFO] app - remove theme DartTheme from app 3
+[2019-01-14T14:47:27.443] [INFO] app - remove theme DashboardTheme from app 3
+[2019-01-14T14:47:27.825] [INFO] app - remove theme JewelryBoxTheme from app 3
+[2019-01-14T14:47:28.227] [INFO] app - remove theme LaunchpadTheme from app 3
+[2019-01-14T14:47:28.590] [INFO] app - remove theme PlateauTheme from app 3
+[2019-01-14T14:47:28.811] [INFO] app - remove widget Analysis from app 3
+[2019-01-15T13:57:01.429] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-01-15T13:57:08.252] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-01-15T13:57:09.640] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-01-15T13:57:11.740] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-01-15T13:58:55.091] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-01-15T13:59:01.523] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-01-15T13:59:02.861] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-01-15T13:59:04.807] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-01-15T14:00:41.981] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-15T14:00:41.991] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-15T14:01:58.177] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-15T14:03:18.138] [INFO] default - No portal URL is set, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2019-01-15T14:21:40.282] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=3 to /webappbuilder/apps/3
+[2019-01-15T14:36:28.757] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-15T14:53:28.828] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\InfoSummary
+[2019-01-15T15:29:15.879] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\BatchAttributeEditor
+[2019-01-15T15:29:50.766] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\RelatedTableCharts
+[2019-01-15T15:31:22.295] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Screening
+[2019-01-15T16:46:39.814] [INFO] app - remove widget BatchAttributeEditor from app 3
+[2019-01-15T16:46:40.026] [INFO] app - remove widget InfoSummary from app 3
+[2019-01-15T16:46:40.227] [INFO] app - remove widget RelatedTableCharts from app 3
+[2019-01-15T16:46:40.459] [INFO] app - remove widget Screening from app 3
+[2019-01-16T09:53:43.651] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\GroupFilter
+[2019-01-16T14:08:35.767] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Filter
+[2019-01-16T14:16:33.582] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ReportFeature
+[2019-01-16T14:17:08.156] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ReviewerDashboard
+[2019-01-17T17:10:11.027] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ObliqueViewer
+[2019-01-17T17:22:09.007] [INFO] app - remove widget ObliqueViewer from app 3
+[2019-01-17T17:22:09.198] [INFO] app - remove widget ReportFeature from app 3
+[2019-01-17T17:22:09.386] [INFO] app - remove widget ReviewerDashboard from app 3
+[2019-01-18T14:39:47.810] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-01-18T14:39:48.999] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-01-18T14:39:49.012] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-01-18T14:39:49.100] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-01-18T14:39:49.105] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-01-18T14:39:49.108] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-01-18T14:39:49.111] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-01-18T14:39:49.113] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-01-18T14:39:49.115] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-01-18T14:39:49.124] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-01-18T14:39:49.127] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-01-18T14:39:49.130] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-01-18T14:39:49.146] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-01-18T14:39:49.148] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-01-18T14:39:49.149] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-01-18T14:39:49.162] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DartTheme
+[2019-01-18T14:39:49.823] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-01-18T14:39:50.232] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-01-18T14:39:50.649] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-01-18T14:39:51.082] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-01-18T14:39:51.544] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-01-18T14:39:51.987] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-18T14:39:52.431] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-01-18T14:39:52.840] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery
+[2019-01-18T14:39:53.288] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Bookmark
+[2019-01-18T14:39:53.812] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Measurement
+[2019-01-18T14:39:54.263] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Draw
+[2019-01-18T14:39:54.673] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Print
+[2019-01-18T14:39:55.097] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\About
+[2019-01-18T14:39:55.514] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-01-18T14:39:55.933] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-01-18T14:39:56.129] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-01-18T14:39:56.318] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-01-18T14:39:58.692] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-18T14:48:33.885] [INFO] app - remove widget FullScreen from app 4
+[2019-01-18T14:49:25.878] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-01-18T14:49:26.878] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-01-18T14:49:26.892] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-01-18T14:49:26.971] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-01-18T14:49:26.975] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-01-18T14:49:26.977] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-01-18T14:49:26.980] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-01-18T14:49:26.983] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-01-18T14:49:26.985] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-01-18T14:49:26.993] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-01-18T14:49:26.996] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-01-18T14:49:26.998] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-01-18T14:49:27.014] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-01-18T14:49:27.017] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-01-18T14:49:27.019] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-01-18T14:49:27.032] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DashboardTheme
+[2019-01-18T14:49:27.969] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:28.683] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:29.390] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:30.101] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:30.813] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:31.502] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:32.198] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T14:49:32.915] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-01-18T14:49:33.108] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-01-18T14:49:33.299] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-01-18T14:49:33.497] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-01-18T14:49:33.899] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-01-18T14:49:34.295] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-01-18T14:49:34.685] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-01-18T14:49:35.096] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-01-18T14:49:35.528] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-01-18T14:49:35.928] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-01-18T14:49:36.406] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-18T14:49:36.603] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-18T14:49:37.026] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Select
+[2019-01-18T14:49:37.477] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-01-18T14:49:37.874] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-18T14:53:14.785] [ERROR] app - Create app error: { message: 'An app &nbsp;\'Energy_Usage_test3\'&nbsp; exists already. Please choose another name.',
+  errCode: 700002 }
+[2019-01-18T14:53:25.159] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2019-01-18T14:53:26.148] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\images
+[2019-01-18T14:53:26.162] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\libs
+[2019-01-18T14:53:26.245] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2019-01-18T14:53:26.249] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2019-01-18T14:53:26.251] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2019-01-18T14:53:26.253] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2019-01-18T14:53:26.255] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2019-01-18T14:53:26.258] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2019-01-18T14:53:26.265] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2019-01-18T14:53:26.268] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2019-01-18T14:53:26.270] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\configs
+[2019-01-18T14:53:26.285] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2019-01-18T14:53:26.287] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2019-01-18T14:53:26.290] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2019-01-18T14:53:26.299] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2019-01-18T14:53:27.086] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2019-01-18T14:53:27.475] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2019-01-18T14:53:27.885] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2019-01-18T14:53:28.289] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2019-01-18T14:53:28.676] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2019-01-18T14:53:28.865] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2019-01-18T14:53:29.249] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2019-01-18T14:53:29.691] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2019-01-18T14:53:30.153] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2019-01-18T14:53:30.347] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2019-01-18T14:53:30.534] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-18T14:53:30.733] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2019-01-18T14:53:31.115] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2019-01-18T14:53:41.080] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\TabTheme
+[2019-01-18T15:05:32.796] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\GroupFilter
+[2019-01-18T15:13:01.513] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-18T15:13:22.385] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Geoprocessing
+[2019-01-18T15:13:40.970] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Query
+[2019-01-18T15:14:05.345] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\BatchAttributeEditor
+[2019-01-18T15:14:22.983] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\InfoSummary
+[2019-01-18T15:48:05.055] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\DataAggregation
+[2019-01-21T09:49:55.043] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-01-21T09:50:08.762] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-01-21T09:50:11.401] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-01-21T09:50:14.902] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-01-21T09:52:11.043] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-21T09:54:00.552] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=6 to /webappbuilder/apps/6
+[2019-01-21T10:17:14.433] [INFO] app - remove theme TabTheme from app 6
+[2019-01-21T10:17:14.649] [INFO] app - remove widget BatchAttributeEditor from app 6
+[2019-01-21T10:17:14.712] [INFO] app - remove widget DataAggregation from app 6
+[2019-01-21T10:17:14.979] [INFO] app - remove widget Geoprocessing from app 6
+[2019-01-21T10:17:15.189] [INFO] app - remove widget GroupFilter from app 6
+[2019-01-21T10:17:15.525] [INFO] app - remove widget Infographic from app 6
+[2019-01-21T10:17:15.738] [INFO] app - remove widget InfoSummary from app 6
+[2019-01-21T10:17:15.987] [INFO] app - remove widget Query from app 6
+[2019-01-21T10:18:48.342] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-21T11:30:36.703] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Summary
+[2019-01-21T11:37:09.794] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\GroupFilter
+[2019-01-21T13:25:32.757] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Filter
+[2019-01-21T13:59:40.850] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\DashboardTheme
+[2019-01-21T13:59:50.869] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\PlateauTheme
+[2019-01-21T13:59:52.982] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes\LaunchpadTheme
+[2019-01-21T14:00:34.872] [INFO] app - remove theme FoldableTheme from app 6
+[2019-01-21T14:00:35.257] [INFO] app - remove theme LaunchpadTheme from app 6
+[2019-01-21T14:00:35.630] [INFO] app - remove theme PlateauTheme from app 6
+[2019-01-21T14:00:35.941] [INFO] app - remove widget Infographic from app 6
+[2019-01-21T14:00:36.144] [INFO] app - remove widget Summary from app 6
+[2019-01-21T14:01:10.318] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Infographic
+[2019-01-21T14:05:46.206] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Chart
+[2019-01-21T14:22:45.101] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-21T14:22:50.110] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-21T14:22:54.675] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-21T14:23:02.473] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=6 to /webappbuilder/apps/6
+[2019-01-21T14:37:03.056] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\BasemapGallery
+[2019-01-21T15:50:25.322] [INFO] app - remove widget config config__34.json from app configs folder C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\server\apps\6\
+[2019-01-21T17:50:05.569] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-22T14:28:37.219] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T13:15:04.489] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T13:15:13.279] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=5 to /webappbuilder/apps/5
+[2019-01-24T13:15:33.196] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T13:15:39.584] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2019-01-24T13:17:34.155] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T13:17:47.589] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\FullScreen
+[2019-01-24T13:18:42.216] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T13:51:11.870] [INFO] app - remove widget config config_widgets_Filter_Widget_20.json from app configs folder C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\server\apps\3\
+[2019-01-24T13:51:12.094] [INFO] app - remove widget Legend from app 3
+[2019-01-24T13:51:50.095] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T14:01:39.403] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T15:31:17.398] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T15:31:25.294] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2019-01-24T15:31:38.099] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=3 to /webappbuilder/apps/3
+[2019-01-24T15:43:02.883] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T15:55:27.158] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-24T16:13:28.175] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-25T14:38:06.081] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Query
+[2019-01-28T13:15:48.899] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-30T13:21:09.230] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-30T13:22:23.769] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-30T13:51:23.308] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-30T14:20:22.819] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\TimeSlider
+[2019-01-30T14:21:31.085] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Swipe
+[2019-01-30T14:28:24.481] [INFO] app - remove widget TimeSlider from app 3
+[2019-01-31T11:30:11.576] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-01-31T13:25:18.027] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\InfoSummary
+[2019-01-31T13:33:17.672] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\Summary
+[2019-01-31T13:39:16.322] [INFO] app - remove widget InfoSummary from app 3
+[2019-01-31T13:39:16.556] [INFO] app - remove widget Swipe from app 3
+[2019-01-31T17:17:24.795] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-04T10:43:58.774] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-02-04T10:44:13.323] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-02-04T10:44:16.050] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-02-04T10:44:20.217] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-02-04T11:11:05.029] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-02-04T11:11:11.996] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-02-04T11:11:13.416] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-02-04T11:11:15.564] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-02-04T11:11:34.650] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-04T11:11:34.659] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-04T11:11:38.798] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-04T11:11:49.861] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=3 to /webappbuilder/apps/3
+[2019-02-05T10:55:20.415] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-02-05T10:55:33.890] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-02-05T10:55:36.608] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-02-05T10:55:40.373] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-02-05T10:57:43.616] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2019-02-05T10:57:50.163] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\themes
+[2019-02-05T10:57:51.541] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2019-02-05T10:57:53.548] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2019-02-05T10:58:01.499] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-05T10:58:01.509] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-05T10:58:06.856] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-05T10:58:16.321] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=3 to /webappbuilder/apps/3
+[2019-02-08T14:02:31.700] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-08T14:02:36.887] [INFO] default - redirect  /webappbuilder/stemapp/index.html?id=3 to /webappbuilder/apps/3
+[2019-02-08T14:51:27.597] [DEBUG] utils - copy C:\Temp\arcgis-web-appbuilder-2.10\WebAppBuilderForArcGIS\client\stemapp\widgets\AddData
+[2019-02-11T10:34:01.169] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-11T10:58:28.417] [INFO] app - remove widget AddData from app 3
+[2019-02-11T11:42:12.432] [INFO] app - App removed, id: 6
+[2019-02-11T11:42:20.506] [INFO] app - App removed, id: 4
+[2019-02-11T11:42:27.535] [INFO] app - App removed, id: 2
+[2019-02-11T11:42:34.091] [INFO] app - App removed, id: 5
+[2019-02-11T11:43:23.923] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-11T11:45:35.062] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\ee_webapp\client\stemapp\widgets
+[2019-02-11T11:45:45.424] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\ee_webapp\client\stemapp\themes
+[2019-02-11T11:45:47.939] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\ee_webapp\client\stemapp3d\widgets
+[2019-02-11T11:45:51.541] [INFO] default - Portal https://insideto-geoportal.toronto.ca/portal uses web-tier authorization.
+[2019-02-11T11:45:51.964] [INFO] repo - Read repository items: C:\Temp\arcgis-web-appbuilder-2.10\ee_webapp\client\stemapp3d\themes
