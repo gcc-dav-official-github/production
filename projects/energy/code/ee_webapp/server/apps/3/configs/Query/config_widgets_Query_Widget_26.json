@@ -7,7 +7,7 @@
   "spatialFilterLabel": "Spatial filters",
   "queries": [
     {
-      "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
+      "url": "",
       "name": "Property Type",
       "icon": {
         "angle": 0,
@@ -48,7 +48,7 @@
         "expr": "",
         "displaySQL": ""
       },
-      "showSQL": false,
+      "showSQL": true,
       "spatialFilter": {
         "currentMapExtent": {
           "default": true
@@ -79,7 +79,7 @@
       "webMapLayerId": "energy_use_sample_4615_2360"
     },
     {
-      "url": "",
+      "url": "https://insideto-gisserver.toronto.ca/arcgis/rest/services/Hosted/energy_use_sample/FeatureServer/0",
       "name": "Number of Buildings",
       "icon": {
         "angle": 0,
@@ -117,8 +117,8 @@
             "caseSensitive": false
           }
         ],
-        "expr": "",
-        "displaySQL": ""
+        "displaySQL": "",
+        "expr": ""
       },
       "showSQL": true,
       "spatialFilter": {
