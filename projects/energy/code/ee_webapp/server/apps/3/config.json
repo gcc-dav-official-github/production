@@ -564,8 +564,8 @@
     "loadingGif": {
       "visible": true,
       "uri": "configs/loading/images/loading.gif",
-      "width": 995,
-      "height": 800
+      "width": 480,
+      "height": 480
     }
   },
   "wabVersion": "2.10",

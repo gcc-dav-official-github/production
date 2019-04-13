@@ -19,3 +19,9 @@
 {"k":"0000000093","o":"0000000390","v":"001"}
 {"_id":"HTML3D_default","_uid":1,"_dt":1547236817722,"_s":"79d5a5b1521058616f3b7b7029e9942f"}
 {"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp3d\\","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000078","o":"0000000466","v":"001"}
+{"_id":3,"_uid":1,"_dt":1549912734098,"_s":"51e227593653c11015c979fe77fb636f"}
+{"_id":3,"id":3,"name":"EEO_Energy_Usage_1","description":"City of Toronto energy usage with sample data","lastUpdated":1549912734096,"createdTime":1547490926422,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"BWalker@ORG","modified":"BWalker@ORG","portalUrl":"//insideto-geoportal.toronto.ca/portal","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#005fa2","themeName":"FoldableTheme"}
+{"k":"0000000078","o":"0000000466","v":"001"}
+{"_id":3,"_uid":1,"_dt":1549913578352,"_s":"0973dab5aac66b4234b82c41fc36ac0d"}
+{"_id":3,"id":3,"name":"EEO_Energy_Usage_1","description":"City of Toronto energy usage with sample data","lastUpdated":1549913578348,"createdTime":1547490926422,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"BWalker@ORG","modified":"BWalker@ORG","portalUrl":"//insideto-geoportal.toronto.ca/portal","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#005fa2","themeName":"FoldableTheme"}
