@@ -1,0 +1,24 @@
+1,Shortname,title,minutes_column,poi0,poi1
+2,foodconv,Convenience Stores,m_fc,_0,_1
+3,fastfood,Fast Food Stores,m_ff,_0,_1
+4,supermarket,Supermarkets,m_sm,_0,_1
+5,hospital,Hospitals,m_hp,_0,_1
+6,sxhclinic,Sexual Health Clinics,m_sxhc,_0,_1
+7,wkclinic,Walk-In Clinics,m_wc,_0,_1
+8,school,Schools,m_sc,_0,_1
+9,arena,Arenas,m_ar,_0,_1
+10,daycare,Day Care Centres,m_dc,_0,_1
+11,dropin,Drop-Ins,m_di,_0,_1
+12,ems,Toronto Paramedic Services,m_ems,_0,_1
+13,famcentre,Family Resource Centres,m_frc,_0,_1
+14,fire,Toronto Fire Services,m_fr,_0,_1
+15,library,Toronto Public Libraries,m_lb,_0,_1
+16,police,Toronto Police Services ,m_plc,_0,_1
+17,recreation,Recreation Centres,m_rec,_0,_1
+18,thingstodo,Things To Do,m_thing,_0,_1
+19,voteloc,Voting Locations,m_vtl,_0,_1
+20,bike_parking,Bicycle On Street Parking,m_bp,_0,_1
+21,bike_station,Bicycle Station Indoor Parking,m_bs,_0,_1
+22,ttc_station,TTC Stations,m_ttcst,_0,_1
+23,ttcstop,TTC Stops,m_ttcstop,_0,_1
+24,ttc_accessible,TTC Accessible Stations,m_ttcacc,_0,_1
